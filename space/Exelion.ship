@@ -1,0 +1,55 @@
+#SHIP
+Name         Exelion~
+Filename     Exelion.ship~
+Description  ~
+Owner        ~
+Pilot        Fry~
+Copilot      ~
+Class        1
+Tractorbeam  0
+Shipyard     60000
+Hanger       203514
+Turret1      203501
+Turret2      203502
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       10
+Missiles     255
+Maxmissiles  255
+Rockets     255
+Maxrockets  255
+Torpedos     255
+Maxtorpedos  255
+Lastdoc      9042
+Firstroom    203500
+Lastroom     203514
+Shield       0
+Maxshield    1000
+Hull         20000
+Maxhull      20000
+Maxenergy    30000
+Hyperspeed   255
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       0
+Astro_array  0
+Realspeed    150
+Type         0
+Cockpit      203500
+Coseat       203500
+Pilotseat    203500
+Gunseat      203500
+Navseat      203500
+Engineroom   0
+Entrance     203504
+Shipstate    0
+Missilestate 0
+Energy       30000
+Manuever     100
+Cost         100000000
+Home         Sol System~
+End
+
+#END

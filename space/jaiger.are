@@ -1,0 +1,55 @@
+#SHIP
+Name         Ghost~
+Filename     jaiger.are~
+Description  ~
+Owner        Viper~
+Pilot        ~
+Copilot      ~
+Class        0
+Tractorbeam  0
+Shipyard     2124
+Hanger       0
+Turret1      0
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       1
+Missiles     8
+Maxmissiles  8
+Rockets     2
+Maxrockets  2
+Torpedos     4
+Maxtorpedos  4
+Lastdoc      2124
+Firstroom    120203
+Lastroom     120203
+Shield       0
+Maxshield    250
+Hull         200
+Maxhull      200
+Maxenergy    8000
+Hyperspeed   75
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       0
+Astro_array  0
+Realspeed    40
+Type         0
+Cockpit      120203
+Coseat       120203
+Pilotseat    120203
+Gunseat      120203
+Navseat      120203
+Engineroom   0
+Entrance     120203
+Shipstate    0
+Missilestate 0
+Energy       8000
+Manuever     0
+Cost         0
+Home         corperate~
+End
+
+#END

@@ -1,0 +1,105 @@
+#SYSTEM
+MudName        &cDragonball: A New Age 1.8 FINAL~
+Highplayers    23
+Highplayertime Thu Aug 24 21:51:04 2006~
+CheckImmHost   1
+Nameresolving  1
+Waitforauth    0
+Readallmail    65
+Readmailfree   1
+Writemailfree  1
+Takeothersmail 64
+IMCMailVnum    0
+Muse           58
+Think          60
+Build          53
+Log            53
+Protoflag      60
+Invokeall      60
+Overridepriv   61
+Msetplayer     61
+Stunplrvsplr   80
+Stunregular    15
+Gougepvp       40
+Gougenontank   80
+Bashpvp        40
+Bashnontank    80
+Dodgemod       1
+Parrymod       1
+Tumblemod      4
+Damplrvsplr    100
+Damplrvsmob    100
+Dammobvsplr    100
+Dammobvsmob    100
+Forcepc        58
+Guildoverseer  ~
+Guildadvisor   ~
+Saveflags      1509
+Savefreq       10
+Bestowdif      10
+BanSiteLevel   58
+BanRaceLevel   58
+BanClassLevel  58
+MorphOpt       1
+PetSave        1
+IdentTries     20
+Pkloot         1
+Newbie_purge   7
+Regular_purge  90
+Autopurge      1
+Player_Limit   1
+Level_NoPlimit 51
+Check_Plimit   1
+AHelp          0
+RpChannel      1
+Supremekai     none~
+Grandkai       none~
+Northkai       none~
+Westkai        none~
+Eastkai        none~
+Southkai       none~
+Kaioshinlast 0 1158377090
+Kaioshinlast 1 1158369495
+Kaioshinlast 2 1158178497
+Kaioshinlast 3 1158530157
+Kaioshinlast 4 1158462484
+Kaioshinlast 5 1158515812
+Demonking      none~
+Demonkinglast   1158515743
+Demonwarlord1  none~
+Demonwarlord2  none~
+Demonwarlord3  none~
+Demonwarlordlast 0 1157597809
+Demonwarlordlast 1 1158450750
+Demonwarlordlast 2 1158214469
+Greaterdemon1  none~
+Greaterdemon2  none~
+Greaterdemon3  none~
+Greaterdemon4  none~
+Greaterdemon5  none~
+Greaterdemon6  none~
+Greaterdemonlast 0 1158510694
+Greaterdemonlast 1 1157181199
+Greaterdemonlast 2 1125007041
+Greaterdemonlast 3 1125336911
+Greaterdemonlast 4 1122177781
+Greaterdemonlast 5 1116382942
+Saiyanking      none~
+Saiyankinglast   1158468819
+Saiyanprince1  none~
+Saiyanprince2  none~
+Saiyanprincelast 0 1157867533
+Saiyanprincelast 1 1158253884
+Saiyanelite1  none~
+Saiyanelite2  none~
+Saiyanelite3  none~
+Saiyanelite4  none~
+Saiyanelitelast 0 1158517321
+Saiyanelitelast 1 1158243915
+Saiyanelitelast 2 1158527820
+Saiyanelitelast 3 1127682851
+Wizlock        0
+Locklev        50
+End
+
+#END

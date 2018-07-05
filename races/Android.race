@@ -1,0 +1,59 @@
+Name        Android~
+Race        4
+Classes     0
+MaxArmor    8000
+Str_Plus    0
+Dex_Plus    0
+Int_Plus    0
+Con_Plus    0
+Lck_Plus    0
+Hit         0
+Mana        0
+Affected    0
+Resist      0
+Suscept     0
+Language    16
+Align       0
+Min_Align   -1000
+Max_Align	 1000
+AC_Plus     0
+Exp_Mult    1
+Attacks     0
+Defenses    0
+Height      66
+Weight      150
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  -25456
+HP_Regen    2568
+Race_Recall 0
+WhereName   <floating above head>  ~
+WhereName   <used as light>      ~
+WhereName   <worn on head>       ~
+WhereName   <worn over face>     ~
+WhereName   <worn on forehead>   ~
+WhereName   <worn on ears>       ~
+WhereName   <worn on eyes>       ~
+WhereName   <worn as scouter>    ~
+WhereName   <worn around neck>   ~
+WhereName   <worn around neck>   ~
+WhereName   <worn on body>       ~
+WhereName   <worn about body>    ~
+WhereName   <worn on back>       ~
+WhereName   <worn as shield>     ~
+WhereName   <access panel>       ~
+WhereName   <worn on arms>       ~
+WhereName   <worn around wrist>  ~
+WhereName   <worn around wrist>  ~
+WhereName   <worn on hands>      ~
+WhereName   <worn on finger>     ~
+WhereName   <worn on finger>     ~
+WhereName   <held>               ~
+WhereName   <wielded>            ~
+WhereName   <worn about waist>   ~
+WhereName   <worn on legs>       ~
+WhereName   <worn around ankle>  ~
+WhereName   <worn around ankle>  ~
+WhereName   <worn on feet>       ~
+WhereName   <standing on>  ~
+End

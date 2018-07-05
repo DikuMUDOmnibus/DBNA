@@ -1,0 +1,5566 @@
+Sun Sep 17 04:00:06 2006 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sun Sep 17 04:00:06 2006 :: Loading commands
+Sun Sep 17 04:00:06 2006 :: Loading sysdata configuration...
+Sun Sep 17 04:00:06 2006 :: Loading socials
+Sun Sep 17 04:00:06 2006 :: Loading skill table
+Sun Sep 17 04:00:06 2006 :: Sorting skill table...
+Sun Sep 17 04:00:06 2006 :: Remapping slots to sns
+Sun Sep 17 04:00:06 2006 :: Loading classes
+Sun Sep 17 04:00:06 2006 :: Loading races
+Sun Sep 17 04:00:06 2006 :: Loading herb table
+Sun Sep 17 04:00:06 2006 :: Loading tongues
+Sun Sep 17 04:00:06 2006 :: Making wizlist
+Sun Sep 17 04:00:06 2006 :: Building wizinfo
+Sun Sep 17 04:00:06 2006 :: Initializing request pipe
+Sun Sep 17 04:00:06 2006 :: Initializing random number generator
+Sun Sep 17 04:00:06 2006 :: Setting time and weather
+Sun Sep 17 04:00:06 2006 :: Assigning gsn's
+ASSIGN_GSN: Skill tuffle blow not found.
+ASSIGN_GSN: Skill devil flash not found.
+ASSIGN_GSN: Skill acid slash not found.
+Sun Sep 17 04:00:06 2006 :: Loading DNS cache...
+Sun Sep 17 04:00:06 2006 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+gods.are      : Rooms:  1200 - 1399  Objs:  1200 - 1399  Mobs:  1200 - 1399
+intro.are     : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+cou.are       : Rooms:   200 - 367   Objs:   200 - 399   Mobs:   200 - 399
+spaceships.are: Rooms:  1000 - 1199  Objs:  1000 - 1199  Mobs:  1000 - 1199
+afterlife.are : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+FShip.are     : Rooms:  3000 - 3099  Objs:  3000 - 3099  Mobs:  3000 - 3099
+ims.are       : Rooms:   600 - 999   Objs:   600 - 999   Mobs:   600 - 999
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: kames_lookout.are LINE: 3094
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 150299.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: kames_lookout.are (30) 'G': object 150299 doesn't exist.
+kames_lookout.are: Rooms:  2000 - 2124  Objs:  2000 - 2009  Mobs:  2000 - 2007
+roshis_island.are: Rooms:  2125 - 2167  Objs:  2010 - 2016  Mobs:  2008 - 2018
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: geros_lab.are LINE: 1057
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 100719.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: geros_lab.are (9) 'M': mobile 100719 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: geros_lab.are LINE: 1067
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 100702.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: geros_lab.are (19) 'G': object 100702 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: geros_lab.are LINE: 1068
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 100705.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: geros_lab.are (20) 'G': object 100705 doesn't exist.
+geros_lab.are : Rooms:  2300 - 2399  Objs:  2300 - 2399  Mobs:  2300 - 2399
+south_city.are: Rooms:  9000 - 9099  Objs:  9000 - 9099  Mobs:  9000 - 9099
+bunny_forest.are: Rooms:  9100 - 9199  Objs:  9100 - 9199  Mobs:  9100 - 9199
+rabbit_gang.are: Rooms:  9200 - 9299  Objs:  9200 - 9299  Mobs:  9200 - 9299
+test.are      : Rooms: 10000 - 10099 Objs: 10000 - 10099 Mobs: 10000 - 10099
+namek.are     : Rooms:  5000 - 5099  Objs:  5000 - 5025  Mobs:  5000 - 5097
+sewers.are    : Rooms:  5500 - 5599  Objs:  5500 - 5599  Mobs:  5500 - 5599
+big_gete.are  : Rooms: 100000 - 100299 Objs: 100000 - 100299 Mobs: 100000 - 100299
+north_42_sector.are: Rooms: 50000 - 50199 Objs: 50000 - 50199 Mobs: 50000 - 50199
+satancity.are : Rooms:  3700 - 3999  Objs:  3700 - 3999  Mobs:  3700 - 3999
+soltari_city.are: Rooms: 60000 - 60199 Objs: 60000 - 60199 Mobs: 60000 - 60199
+fake_namek.are: Rooms: 40000 - 40099 Objs: 40000 - 40099 Mobs: 40000 - 40055
+nativlon_island.are: Rooms: 20000 - 20299 Objs: 20000 - 20269 Mobs: 20000 - 20299
+western_desert.are: Rooms: 70000 - 70199 Objs: 70000 - 70199 Mobs: 70000 - 70199
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7228
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 300421.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (85) 'G': object 300421 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7229
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 300421.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (86) 'G': object 300421 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7230
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 300421.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (87) 'G': object 300421 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7231
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 300421.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (88) 'G': object 300421 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7232
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 300421.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (89) 'G': object 300421 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7233
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 300421.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (90) 'G': object 300421 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7244
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204789.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (101) 'G': object 204789 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7292
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 300421.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (149) 'G': object 300421 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7299
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204789.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (156) 'G': object 204789 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: capsule_corp.are LINE: 7300
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 120078.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: capsule_corp.are (157) 'G': object 120078 doesn't exist.
+capsule_corp.are: Rooms: 110000 - 110299 Objs: 110000 - 110299 Mobs: 110000 - 110299
+mount_areukk.are: Rooms: 150000 - 150299 Objs: 150000 - 150299 Mobs: 150000 - 150299
+snake_way.are : Rooms: 100300 - 100499 Objs: 100300 - 100499 Mobs: 100300 - 100499
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7432
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 120084.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (4) 'O': object 120084 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7433
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120031.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (5) 'M': mobile 120031 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7434
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120031.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (6) 'M': mobile 120031 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7435
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (7) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7436
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (8) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7437
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (9) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7438
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (10) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7439
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (11) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7440
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (12) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7441
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (13) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7442
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (14) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7443
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (15) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7444
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (16) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7445
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (17) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7446
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (18) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7447
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (19) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7448
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (20) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7449
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (21) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7450
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (22) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7451
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (23) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7452
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (24) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7453
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (25) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7454
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (26) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7455
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (27) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7456
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (28) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7457
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (29) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7458
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (30) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7459
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (31) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7460
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (32) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7461
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (33) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7462
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (34) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7463
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (35) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7464
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (36) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7465
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 302301.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (37) 'M': mobile 302301 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7466
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302311.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (38) 'G': object 302311 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7467
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302310.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (39) 'G': object 302310 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7468
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302309.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (40) 'G': object 302309 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7469
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302308.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (41) 'G': object 302308 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7470
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302307.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (42) 'G': object 302307 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7471
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302306.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (43) 'G': object 302306 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7472
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302305.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (44) 'G': object 302305 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7473
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302304.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (45) 'G': object 302304 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7474
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302303.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (46) 'G': object 302303 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7475
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302302.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (47) 'G': object 302302 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7476
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 120086.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (48) 'O': object 120086 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7479
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 302301.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (51) 'M': mobile 302301 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7480
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302311.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (52) 'G': object 302311 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7481
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302310.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (53) 'G': object 302310 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7482
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302309.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (54) 'G': object 302309 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7483
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302308.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (55) 'G': object 302308 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7484
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302307.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (56) 'G': object 302307 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7485
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302306.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (57) 'G': object 302306 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7486
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302305.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (58) 'G': object 302305 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7487
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302304.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (59) 'G': object 302304 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7488
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302303.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (60) 'G': object 302303 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7489
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302302.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (61) 'G': object 302302 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7490
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120032.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (62) 'M': mobile 120032 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7491
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120032.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (63) 'M': mobile 120032 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7492
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120032.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (64) 'M': mobile 120032 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7493
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120033.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (65) 'M': mobile 120033 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7494
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120033.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (66) 'M': mobile 120033 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7495
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120033.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (67) 'M': mobile 120033 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7496
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (68) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7497
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (69) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7498
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (70) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7499
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 120085.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (71) 'O': object 120085 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7507
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 302301.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (79) 'M': mobile 302301 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7508
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302311.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (80) 'G': object 302311 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7509
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302310.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (81) 'G': object 302310 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7510
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302309.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (82) 'G': object 302309 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7511
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302308.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (83) 'G': object 302308 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7512
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302307.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (84) 'G': object 302307 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7513
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302306.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (85) 'G': object 302306 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7514
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302305.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (86) 'G': object 302305 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7515
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302304.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (87) 'G': object 302304 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7516
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302303.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (88) 'G': object 302303 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7517
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302302.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (89) 'G': object 302302 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7522
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 120067.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (94) 'O': object 120067 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7526
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (98) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7527
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (99) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7537
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (109) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7538
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (110) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7539
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (111) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7540
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (112) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7541
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120034.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (113) 'M': mobile 120034 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7544
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 302301.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (116) 'M': mobile 302301 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7545
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302311.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (117) 'G': object 302311 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7546
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302310.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (118) 'G': object 302310 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7547
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302309.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (119) 'G': object 302309 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7548
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302308.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (120) 'G': object 302308 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7549
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302307.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (121) 'G': object 302307 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7550
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302306.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (122) 'G': object 302306 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7551
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302305.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (123) 'G': object 302305 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7552
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302304.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (124) 'G': object 302304 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7553
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302303.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (125) 'G': object 302303 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7554
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302302.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (126) 'G': object 302302 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7559
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 204798.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (131) 'M': mobile 204798 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7561
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 120067.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (133) 'O': object 120067 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7564
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120031.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (136) 'M': mobile 120031 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7566
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 302301.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (138) 'M': mobile 302301 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7567
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302311.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (139) 'G': object 302311 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7568
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302310.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (140) 'G': object 302310 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7569
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302309.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (141) 'G': object 302309 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7570
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302308.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (142) 'G': object 302308 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7571
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302307.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (143) 'G': object 302307 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7572
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302306.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (144) 'G': object 302306 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7573
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302305.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (145) 'G': object 302305 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7574
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302304.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (146) 'G': object 302304 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7575
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302303.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (147) 'G': object 302303 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: megaplex.are LINE: 7576
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 302302.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: megaplex.are (148) 'G': object 302302 doesn't exist.
+megaplex.are  : Rooms:  4000 - 4499  Objs:  4000 - 4499  Mobs:  4497 - 4499
+basement.are  : Rooms: 100700 - 100799 Objs: 100700 - 100799 Mobs: 100700 - 100799
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2106
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 120051.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (44) 'M': mobile 120051 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2107
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 301101.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (45) 'M': mobile 301101 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2108
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204772.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (46) 'G': object 204772 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2109
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204773.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (47) 'G': object 204773 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2110
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204775.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (48) 'G': object 204775 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2111
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204774.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (49) 'G': object 204774 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2112
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204776.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (50) 'G': object 204776 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2113
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204769.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (51) 'G': object 204769 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2114
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204766.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (52) 'G': object 204766 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2115
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204770.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (53) 'G': object 204770 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2116
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204765.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (54) 'G': object 204765 doesn't exist.
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: deadzone.are LINE: 2117
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 204771.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: deadzone.are (55) 'G': object 204771 doesn't exist.
+deadzone.are  : Rooms: 120100 - 120199 Objs: 120100 - 120106 Mobs: 120100 - 120122
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: castlevegeta.are LINE: 4621
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_obj_index: bad vnum 202324.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: castlevegeta.are (210) 'G': object 202324 doesn't exist.
+castlevegeta.are: Rooms: 201500 - 201715 Objs: 201501 - 201533 Mobs: 201504 - 201691
+castlepath.are: Rooms: 201716 - 201735 Objs: 201716 - 201735 Mobs: 201716 - 201735
+namekshop.are : Rooms: 130000 - 130099 Objs: 130000 - 130099 Mobs: 130000 - 130099
+hive.are      : Rooms: 120000 - 120099 Objs: 120000 - 120099 Mobs: 120000 - 120099
+treeofmight.are: Rooms: 200800 - 200899 Objs: 200801 - 200829 Mobs: 200800 - 200813
+Sun Sep 17 04:00:06 2006 :: [*****] FILE: soltaridesert.are LINE: 4077
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Get_mob_index: bad vnum 202523.
+Sun Sep 17 04:00:06 2006 :: [*****] BOOT: Load_resets: soltaridesert.are (180) 'M': mobile 202523 doesn't exist.
+soltaridesert.are: Rooms: 202300 - 202460 Objs: 202300 - 202372 Mobs: 202301 - 202459
+worldstrongest.are: Rooms: 200500 - 200599 Objs: 200500 - 200516 Mobs: 200500 - 200514
+friezas_ship.are: Rooms:  4500 - 4599  Objs:  4500 - 4502  Mobs:  4500 - 4503
+SuperVolcano.are: Rooms: 202500 - 202950 Objs: 202500 - 202570 Mobs: 202500 - 202524
+Gatsu.are     : Rooms: 130200 - 130299 Objs: 130200 - 130299 Mobs: 130200 - 130299
+exelion.are   : Rooms: 203500 - 203514 Objs: 203500 - 203514 Mobs: 203500 - 203514
+training.are  : Rooms: 203600 - 203799 Objs: 203600 - 203799 Mobs: 203600 - 203799
+mini_ships.are: Rooms: 120200 - 120288 Objs: 120200 - 120207 Mobs: 120200 - 120210
+EastDistrict439.are: Rooms: 203800 - 204400 Objs: 203800 - 203819 Mobs: 203800 - 203823
+EastDistrictRoad.are: Rooms: 204401 - 204450 Objs:     0 - 0     Mobs:     0 - 0
+questvnums.are: Rooms: 204451 - 204551 Objs: 204451 - 204451 Mobs: 204451 - 204451
+karn_2.are    : Rooms: 300000 - 300001 Objs: 300000 - 300001 Mobs: 300000 - 300001
+alternatefuture.are: Rooms: 204552 - 204799 Objs: 204552 - 204798 Mobs: 204552 - 204799
+Jaiger.are    : Rooms: 300002 - 300007 Objs: 300002 - 300004 Mobs: 300002 - 300007
+PilafsCastle.are: Rooms: 301101 - 301399 Objs: 301101 - 301399 Mobs: 301101 - 301399
+bulldog.are   : Rooms: 302300 - 302399 Objs: 302300 - 302399 Mobs: 302300 - 302399
+bloodb.are    : Rooms: 302600 - 302699 Objs: 302600 - 302699 Mobs: 302600 - 302699
+supremekaiplanet.are: Rooms: 300251 - 300300 Objs: 300251 - 300272 Mobs: 300251 - 300287
+ShadowDragons.are: Rooms: 300401 - 300401 Objs: 300401 - 300426 Mobs: 300401 - 300411
+ForsakenHQ.are: Rooms: 303600 - 303614 Objs: 303600 - 303603 Mobs: 303600 - 303602
+planet_plant.are: Rooms: 650000 - 650299 Objs: 650000 - 650100 Mobs: 650000 - 650100
+Cyris.are     : Rooms: 303615 - 303616 Objs: 303615 - 303616 Mobs: 303615 - 303616
+Yardansville_Outpost.are: Rooms: 650600 - 650699 Objs: 650600 - 650699 Mobs: 650600 - 650699
+grandkaiplanet.are: Rooms: 302700 - 303199 Objs: 302701 - 302804 Mobs: 302700 - 302768
+Dark_Horizon_HQ.are: Rooms: 304700 - 305199 Objs: 304700 - 305199 Mobs: 304700 - 305199
+aoh.are       : Rooms: 304200 - 304699 Objs: 304200 - 304699 Mobs: 304200 - 304699
+Crimson_Steel_HQ.are: Rooms: 305500 - 305599 Objs: 305500 - 305599 Mobs: 305500 - 305599
+Sun Sep 17 04:00:06 2006 :: Fixing exits
+Sun Sep 17 04:00:06 2006 :: Loading economy
+Sun Sep 17 04:00:06 2006 :: Initializing economy
+Sun Sep 17 04:00:06 2006 :: Resetting areas
+Resetting: limbo.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: afterlife.are
+Resetting: FShip.are
+Resetting: ims.are
+Resetting: kames_lookout.are
+Resetting: roshis_island.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: nativlon_island.are
+Resetting: western_desert.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: snake_way.are
+Resetting: megaplex.are
+Resetting: basement.are
+Resetting: deadzone.are
+Resetting: castlevegeta.are
+Resetting: castlepath.are
+Resetting: namekshop.are
+Resetting: hive.are
+Resetting: treeofmight.are
+Resetting: soltaridesert.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: Gatsu.are
+Resetting: exelion.are
+Resetting: training.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: EastDistrictRoad.are
+Resetting: questvnums.are
+Resetting: karn_2.are
+Resetting: alternatefuture.are
+Resetting: Jaiger.are
+Resetting: PilafsCastle.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+Resetting: ShadowDragons.are
+Resetting: ForsakenHQ.are
+Resetting: planet_plant.are
+Resetting: Cyris.are
+Resetting: Yardansville_Outpost.are
+Resetting: grandkaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: aoh.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 04:00:06 2006 :: Loading buildlist
+Sun Sep 17 04:00:06 2006 :: ../gods/Karn
+Sun Sep 17 04:00:06 2006 :: ../gods/Urza
+Sun Sep 17 04:00:06 2006 :: ../gods/Nisha
+Sun Sep 17 04:00:06 2006 :: ../gods/Kellen
+Kellen.are    : Rooms: 304100 - 304199 Objs: 304100 - 304199 Mobs: 304100 - 304199
+Sun Sep 17 04:00:06 2006 :: ../gods/Kratos
+Kratos.are    : Rooms: 305400 - 305499 Objs: 305400 - 305499 Mobs: 305400 - 305499
+Sun Sep 17 04:00:06 2006 :: ../gods/Normed
+Sun Sep 17 04:00:06 2006 :: ../gods/Vannor
+Vannor.are    : Rooms: 305600 - 305999 Objs: 305600 - 305999 Mobs: 305600 - 305999
+Sun Sep 17 04:00:06 2006 :: ../gods/Renzoku
+Sun Sep 17 04:00:06 2006 :: Loading boards
+Sun Sep 17 04:00:06 2006 :: Loading Global Boards
+Sun Sep 17 04:00:06 2006 :: Loading clans
+Sun Sep 17 04:00:06 2006 :: Loading clans...
+Sun Sep 17 04:00:06 2006 :: zfight
+Sun Sep 17 04:00:06 2006 :: $
+Sun Sep 17 04:00:06 2006 :: Loading alliance data
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: load_alliance: bad section
+Sun Sep 17 04:00:06 2006 ::  Done clans 
+Sun Sep 17 04:00:06 2006 :: Loading deities
+Sun Sep 17 04:00:06 2006 :: Loading deities...
+Sun Sep 17 04:00:06 2006 :: ../deity/truth
+Sun Sep 17 04:00:06 2006 :: ../deity/bruno
+Sun Sep 17 04:00:06 2006 :: $
+Sun Sep 17 04:00:06 2006 ::  Done deities 
+Sun Sep 17 04:00:06 2006 :: Loading councils
+Sun Sep 17 04:00:06 2006 :: Loading councils...
+Sun Sep 17 04:00:06 2006 :: Newbie
+Sun Sep 17 04:00:06 2006 :: Union
+Sun Sep 17 04:00:06 2006 :: $
+Sun Sep 17 04:00:06 2006 ::  Done councils 
+Sun Sep 17 04:00:06 2006 :: Loading watches
+Sun Sep 17 04:00:06 2006 :: Loading bans
+Sun Sep 17 04:00:06 2006 :: Done.
+Sun Sep 17 04:00:06 2006 :: Loading reserved names
+Sun Sep 17 04:00:06 2006 :: Loading auth namelist
+Sun Sep 17 04:00:06 2006 :: Loading censored words
+Sun Sep 17 04:00:06 2006 :: Updating rare/unique item counts.....
+Sun Sep 17 04:00:06 2006 :: Checking player files....
+Sun Sep 17 04:00:06 2006 :: Checking corpses....
+Sun Sep 17 04:00:06 2006 :: Loading corpses
+Sun Sep 17 04:00:06 2006 :: Loading space
+Sun Sep 17 04:00:06 2006 :: Loading space...
+Sun Sep 17 04:00:06 2006 ::  Done starsystems 
+Sun Sep 17 04:00:06 2006 :: Loading ships
+Sun Sep 17 04:00:06 2006 :: Loading ships...
+Sun Sep 17 04:00:06 2006 ::  Done ships 
+Sun Sep 17 04:00:06 2006 :: Loading governments
+Sun Sep 17 04:00:06 2006 :: Loading planets...
+Sun Sep 17 04:00:06 2006 :: earth.planet
+Sun Sep 17 04:00:06 2006 :: cou.planet
+Sun Sep 17 04:00:06 2006 :: vegeta.planet
+Sun Sep 17 04:00:06 2006 :: namek.planet
+Sun Sep 17 04:00:06 2006 :: furiza.planet
+Sun Sep 17 04:00:06 2006 :: fakenamek.planet
+Sun Sep 17 04:00:06 2006 :: planetplant.planet
+Sun Sep 17 04:00:06 2006 :: Yardratian.planet
+Sun Sep 17 04:00:06 2006 :: $
+Sun Sep 17 04:00:06 2006 ::  Done planets 
+Sun Sep 17 04:00:06 2006 :: Loading Immortal Hosts
+Sun Sep 17 04:00:06 2006 :: No immortal host data
+Sun Sep 17 04:00:06 2006 :: Loading Projects
+Sun Sep 17 04:00:06 2006 :: Loading Morphs
+Sun Sep 17 04:00:06 2006 :: Optimizing Morphs.
+Sun Sep 17 04:00:06 2006 :: Done.
+Sun Sep 17 04:00:06 2006 :: Loading storerooms
+Sun Sep 17 04:00:06 2006 :: Loading storage room
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Load_storeroom: # not found.
+Sun Sep 17 04:00:06 2006 :: Loading storage room
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Load_storeroom: # not found.
+Sun Sep 17 04:00:06 2006 :: Loading storage room
+Sun Sep 17 04:00:06 2006 :: Loading storage room
+Sun Sep 17 04:00:06 2006 :: Loading Colors
+Sun Sep 17 04:00:06 2006 :: Loading Housing System, Home Accessories Data, and Home Auctioning System
+Sun Sep 17 04:00:06 2006 :: [*****] BUG: Cannot load house file: Fry
+Sun Sep 17 04:00:06 2006 :: Loading hiscore tables
+Sun Sep 17 04:00:06 2006 :: Initializing socket
+Sun Sep 17 04:00:06 2006 :: &cDragonball: A New Age 1.8 ready at address seyonne on port 3000.
+Sun Sep 17 04:00:16 2006 :: Starting compression for descriptor 7
+Sun Sep 17 04:00:16 2006 :: Preloading player data for: Manaroth (3K)
+auth_read: read: Connection reset by peer
+Sun Sep 17 04:00:20 2006 :: [*****] BUG: Auth_read: Error on read for Manaroth@58.163.34.205.
+Sun Sep 17 04:00:20 2006 :: Loading player data for: Manaroth (3K)
+Sun Sep 17 04:00:20 2006 :: Manaroth@58.163.34.205((Error_on_read)) has connected.
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: satancity.are
+Sun Sep 17 04:02:59 2006 :: Log invis card dropper: mpoload 100729
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: intro.are
+Resetting: big_gete.are
+Sun Sep 17 04:07:32 2006 :: Preloading player data for: Kyo (2K)
+Sun Sep 17 04:07:33 2006 :: Loading player data for: Kyo (2K)
+Sun Sep 17 04:07:33 2006 :: Kyo@70.100.185.50((in_progress)) has connected.
+Sun Sep 17 04:07:50 2006 :: Kyo has quit (Room 104).
+Sun Sep 17 04:07:52 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: Gatsu.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Resetting: worldstrongest.are
+Resetting: afterlife.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: treeofmight.are
+Resetting: friezas_ship.are
+Resetting: questvnums.are
+Resetting: ForsakenHQ.are
+Resetting: grandkaiplanet.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: namekshop.are
+Resetting: SuperVolcano.are
+Resetting: karn_2.are
+Resetting: supremekaiplanet.are
+Resetting: planet_plant.are
+Resetting: Cyris.are
+Resetting: ims.are
+Resetting: test.are
+Resetting: north_42_sector.are
+Resetting: soltari_city.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: basement.are
+Resetting: soltaridesert.are
+Resetting: PilafsCastle.are
+Resetting: bloodb.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: western_desert.are
+Resetting: castlevegeta.are
+Resetting: castlepath.are
+Resetting: exelion.are
+Resetting: training.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: Jaiger.are
+Resetting: bulldog.are
+Resetting: ShadowDragons.are
+Resetting: Yardansville_Outpost.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: aoh.are
+Resetting: namek.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: bunny_forest.are
+Resetting: big_gete.are
+Resetting: hive.are
+Resetting: alternatefuture.are
+Resetting: FShip.are
+Resetting: satancity.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: worldstrongest.are
+Resetting: Gatsu.are
+Resetting: intro.are
+Resetting: satancity.are
+Resetting: megaplex.are
+Resetting: deadzone.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: rabbit_gang.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: ForsakenHQ.are
+Resetting: satancity.are
+Resetting: namekshop.are
+Resetting: treeofmight.are
+Resetting: questvnums.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: roshis_island.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: test.are
+Resetting: soltari_city.are
+Resetting: ims.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: north_42_sector.are
+Resetting: fake_namek.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: friezas_ship.are
+Resetting: Gatsu.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: castlepath.are
+Resetting: soltaridesert.are
+Resetting: worldstrongest.are
+Resetting: SuperVolcano.are
+Resetting: karn_2.are
+Resetting: bloodb.are
+Resetting: planet_plant.are
+Resetting: Yardansville_Outpost.are
+Resetting: namek.are
+Resetting: hive.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: Jaiger.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: nativlon_island.are
+Resetting: western_desert.are
+Resetting: deadzone.are
+Resetting: exelion.are
+Resetting: bulldog.are
+Resetting: cou.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: training.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: bunny_forest.are
+Resetting: alternatefuture.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: FShip.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: Gatsu.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: kames_lookout.are
+Resetting: snake_way.are
+Resetting: namekshop.are
+Resetting: cou.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: treeofmight.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: roshis_island.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: worldstrongest.are
+Resetting: questvnums.are
+Resetting: ForsakenHQ.are
+Resetting: Cyris.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: soltaridesert.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: Jaiger.are
+Resetting: bloodb.are
+Resetting: north_42_sector.are
+Resetting: fake_namek.are
+Resetting: western_desert.are
+Resetting: mount_areukk.are
+Resetting: exelion.are
+Resetting: EastDistrict439.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: castlepath.are
+Resetting: mini_ships.are
+Resetting: karn_2.are
+Resetting: bulldog.are
+Resetting: planet_plant.are
+Resetting: Yardansville_Outpost.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: megaplex.are
+Resetting: training.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: Gatsu.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: hive.are
+Sun Sep 17 04:41:58 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: alternatefuture.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Sun Sep 17 04:43:18 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: intro.are
+Resetting: cou.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: worldstrongest.are
+Resetting: south_city.are
+Resetting: snake_way.are
+Resetting: questvnums.are
+Resetting: ForsakenHQ.are
+Read_from_descriptor: Connection reset by peer
+Sun Sep 17 04:44:59 2006 :: Closing link to Manaroth.
+Sun Sep 17 04:44:59 2006 :: Stopping compression for descriptor 7
+Sun Sep 17 04:44:59 2006 :: Stopping compression for descriptor 7
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: FShip.are
+Resetting: ims.are
+Resetting: roshis_island.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: namekshop.are
+Resetting: hive.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: capsule_corp.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: soltaridesert.are
+Resetting: SuperVolcano.are
+auth_read: read: Connection reset by peer
+Sun Sep 17 04:47:25 2006 :: [*****] BUG: Auth_read: Error on read for (unknown)@58.163.34.205.
+Read_from_descriptor: Connection reset by peer
+Resetting: intro.are
+Resetting: friezas_ship.are
+Resetting: exelion.are
+Resetting: Jaiger.are
+Resetting: Cyris.are
+Resetting: spaceships.are
+Resetting: kames_lookout.are
+Resetting: mount_areukk.are
+Resetting: castlepath.are
+Resetting: Gatsu.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Resetting: planet_plant.are
+Resetting: Yardansville_Outpost.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: limbo.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: aoh.are
+Resetting: gods.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: fake_namek.are
+Resetting: western_desert.are
+Resetting: EastDistrict439.are
+Resetting: karn_2.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: deadzone.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: mini_ships.are
+Resetting: EastDistrictRoad.are
+Sun Sep 17 04:51:53 2006 :: Starting compression for descriptor 7
+Sun Sep 17 04:51:53 2006 :: Preloading player data for: Manaroth (3K)
+Sun Sep 17 04:51:55 2006 :: Manaroth@58.163.34.205((in_progress)) reconnected.
+auth_read: read: Connection reset by peer
+Sun Sep 17 04:51:56 2006 :: [*****] BUG: Auth_read: Error on read for Manaroth@58.163.34.205.
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: training.are
+Resetting: cou.are
+Resetting: treeofmight.are
+Resetting: intro.are
+Resetting: Gatsu.are
+Resetting: kames_lookout.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: big_gete.are
+Resetting: snake_way.are
+Resetting: ForsakenHQ.are
+Sun Sep 17 04:57:22 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: questvnums.are
+Resetting: alternatefuture.are
+Resetting: grandkaiplanet.are
+Resetting: roshis_island.are
+Resetting: soltari_city.are
+Resetting: namekshop.are
+Resetting: friezas_ship.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: afterlife.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: capsule_corp.are
+Resetting: megaplex.are
+Resetting: deadzone.are
+Resetting: soltaridesert.are
+Resetting: Jaiger.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+sh: line 1: : command not found
+Sun Sep 17 05:00:00 2006 :: Automated pfile cleanup beginning....
+Sun Sep 17 05:00:00 2006 :: Player Auron was deleted. Exceeded time limit of 7 days.
+Sun Sep 17 05:00:00 2006 :: Player Corren was deleted. Exceeded time limit of 7 days.
+Sun Sep 17 05:00:00 2006 :: [*****] BUG: fread_letter: EOF encountered on read.
+
+Sun Sep 17 05:00:00 2006 :: [*****] FILE: ../player/m/Monoxide
+Sun Sep 17 05:00:00 2006 :: [*****] BUG: Bad Pfile detected.  Stoping proccessing of bad Pfile.
+Sun Sep 17 05:00:00 2006 :: [*****] BUG: fread_letter: EOF encountered on read.
+
+Sun Sep 17 05:00:00 2006 :: [*****] FILE: ../player/r/Raven
+Sun Sep 17 05:00:00 2006 :: [*****] BUG: Bad Pfile detected.  Stoping proccessing of bad Pfile.
+Sun Sep 17 05:00:00 2006 :: Player Xanther was deleted. Exceeded time limit of 7 days.
+Sun Sep 17 05:00:00 2006 :: Pfile cleanup completed.
+Sun Sep 17 05:00:00 2006 :: Total pfiles scanned: 272
+Sun Sep 17 05:00:00 2006 :: Total pfiles deleted: 3
+Sun Sep 17 05:00:00 2006 :: Total pfiles remaining: 269
+Resetting: spaceships.are
+Resetting: satancity.are
+Resetting: castlevegeta.are
+Resetting: worldstrongest.are
+Resetting: SuperVolcano.are
+Resetting: exelion.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: karn_2.are
+Resetting: aoh.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: mount_areukk.are
+Resetting: castlepath.are
+Resetting: planet_plant.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: ShadowDragons.are
+Resetting: kames_lookout.are
+Resetting: fake_namek.are
+Resetting: western_desert.are
+Resetting: Gatsu.are
+Resetting: EastDistrict439.are
+Resetting: PilafsCastle.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: treeofmight.are
+Resetting: mini_ships.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: deadzone.are
+Resetting: training.are
+Resetting: ForsakenHQ.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: intro.are
+Resetting: satancity.are
+Resetting: questvnums.are
+Resetting: Cyris.are
+Resetting: afterlife.are
+Resetting: ims.are
+Resetting: roshis_island.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: snake_way.are
+Resetting: basement.are
+Resetting: namekshop.are
+Resetting: soltaridesert.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: Jaiger.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: soltari_city.are
+Resetting: exelion.are
+Resetting: bloodb.are
+Resetting: capsule_corp.are
+Resetting: SuperVolcano.are
+Resetting: bulldog.are
+Resetting: supremekaiplanet.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: alternatefuture.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: karn_2.are
+Resetting: planet_plant.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: fake_namek.are
+Resetting: mount_areukk.are
+Resetting: deadzone.are
+Resetting: ShadowDragons.are
+Resetting: aoh.are
+Resetting: cou.are
+Resetting: castlepath.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: PilafsCastle.are
+Sun Sep 17 05:19:01 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: western_desert.are
+Resetting: hive.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: megaplex.are
+Resetting: training.are
+Resetting: bunny_forest.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: afterlife.are
+Resetting: FShip.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: Gatsu.are
+Resetting: roshis_island.are
+Resetting: test.are
+Resetting: big_gete.are
+Resetting: friezas_ship.are
+Resetting: Cyris.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: SuperVolcano.are
+Resetting: questvnums.are
+Resetting: Jaiger.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: snake_way.are
+Resetting: deadzone.are
+Resetting: namekshop.are
+Resetting: exelion.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: planet_plant.are
+Resetting: cou.are
+Resetting: bunny_forest.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: karn_2.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: north_42_sector.are
+Resetting: fake_namek.are
+Resetting: mount_areukk.are
+Resetting: ShadowDragons.are
+Resetting: aoh.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: alternatefuture.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: satancity.are
+Resetting: PilafsCastle.are
+Resetting: ForsakenHQ.are
+Resetting: big_gete.are
+Resetting: western_desert.are
+Resetting: castlepath.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: treeofmight.are
+Resetting: bunny_forest.are
+Resetting: deadzone.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: Cyris.are
+Resetting: grandkaiplanet.are
+Resetting: test.are
+Resetting: training.are
+Resetting: Jaiger.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: kames_lookout.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: namekshop.are
+Resetting: soltaridesert.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: Gatsu.are
+Resetting: bloodb.are
+Resetting: limbo.are
+Resetting: ims.are
+Resetting: roshis_island.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: capsule_corp.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: questvnums.are
+Resetting: supremekaiplanet.are
+Resetting: Yardansville_Outpost.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: exelion.are
+Resetting: planet_plant.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: karn_2.are
+Resetting: aoh.are
+Resetting: worldstrongest.are
+Resetting: EastDistrict439.are
+Resetting: EastDistrictRoad.are
+Resetting: ShadowDragons.are
+Resetting: ForsakenHQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: western_desert.are
+Resetting: alternatefuture.are
+Resetting: gods.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: megaplex.are
+Resetting: deadzone.are
+Resetting: mini_ships.are
+Resetting: PilafsCastle.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: hive.are
+Resetting: treeofmight.are
+Resetting: kames_lookout.are
+Resetting: bunny_forest.are
+Resetting: castlepath.are
+Resetting: Gatsu.are
+Resetting: Cyris.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: namekshop.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: namek.are
+Resetting: soltaridesert.are
+Resetting: SuperVolcano.are
+Resetting: training.are
+Resetting: Jaiger.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: capsule_corp.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: south_city.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: friezas_ship.are
+Resetting: exelion.are
+Resetting: supremekaiplanet.are
+Resetting: Yardansville_Outpost.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 05:52:25 2006 :: Starting compression for descriptor 8
+Sun Sep 17 05:52:25 2006 :: Preloading player data for: Elias (5K)
+Sun Sep 17 05:52:26 2006 :: Loading player data for: Elias (5K)
+Sun Sep 17 05:52:26 2006 :: Elias@172.146.120.193((pipe_breaking)) has connected.
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: mount_areukk.are
+Resetting: worldstrongest.are
+Resetting: questvnums.are
+Resetting: karn_2.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: planet_plant.are
+Resetting: aoh.are
+Resetting: rabbit_gang.are
+Resetting: fake_namek.are
+Resetting: deadzone.are
+Resetting: Gatsu.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: EastDistrict439.are
+Resetting: ForsakenHQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: hive.are
+Resetting: mini_ships.are
+Resetting: ShadowDragons.are
+Sun Sep 17 05:58:32 2006 :: Stopping compression for descriptor 8
+Sun Sep 17 05:58:32 2006 :: Elias has quit (Room 9001).
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: north_42_sector.are
+Resetting: treeofmight.are
+Resetting: alternatefuture.are
+Resetting: PilafsCastle.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: castlepath.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: geros_lab.are
+Resetting: satancity.are
+Resetting: namekshop.are
+Resetting: grandkaiplanet.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: worldstrongest.are
+Resetting: SuperVolcano.are
+Resetting: Jaiger.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: afterlife.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: bulldog.are
+Resetting: ims.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: capsule_corp.are
+Resetting: megaplex.are
+Resetting: deadzone.are
+Resetting: castlevegeta.are
+Resetting: Gatsu.are
+Resetting: questvnums.are
+Resetting: bloodb.are
+Resetting: roshis_island.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: mount_areukk.are
+Resetting: basement.are
+Resetting: friezas_ship.are
+Resetting: training.are
+Resetting: supremekaiplanet.are
+Sun Sep 17 06:05:18 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: intro.are
+Resetting: namek.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: snake_way.are
+Resetting: exelion.are
+Resetting: karn_2.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: big_gete.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: mini_ships.are
+Resetting: aoh.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Resetting: ForsakenHQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: bunny_forest.are
+Resetting: north_42_sector.are
+Resetting: castlepath.are
+Resetting: worldstrongest.are
+Resetting: EastDistrict439.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: treeofmight.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: grandkaiplanet.are
+Resetting: cou.are
+Resetting: namekshop.are
+Resetting: Gatsu.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: ims.are
+Resetting: deadzone.are
+Resetting: soltaridesert.are
+Resetting: alternatefuture.are
+Resetting: Cyris.are
+Resetting: Yardansville_Outpost.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: SuperVolcano.are
+Resetting: Jaiger.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: FShip.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: bulldog.are
+Resetting: kames_lookout.are
+Resetting: roshis_island.are
+Resetting: namek.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: friezas_ship.are
+Resetting: supremekaiplanet.are
+Sun Sep 17 06:18:15 2006 :: Manaroth (6) killed by An Elite Warrior at 203784
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: exelion.are
+Resetting: questvnums.are
+Resetting: karn_2.are
+Resetting: bloodb.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: cou.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: snake_way.are
+Resetting: basement.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: training.are
+Resetting: ShadowDragons.are
+Resetting: planet_plant.are
+Resetting: bunny_forest.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: ForsakenHQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: deadzone.are
+Resetting: castlepath.are
+Resetting: treeofmight.are
+Resetting: mini_ships.are
+Resetting: PilafsCastle.are
+Resetting: aoh.are
+Resetting: namek.are
+Resetting: big_gete.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: EastDistrict439.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 06:23:49 2006 :: Log kaylee spirit: mpoload 300260
+Resetting: intro.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: ims.are
+Resetting: geros_lab.are
+Resetting: megaplex.are
+Resetting: soltaridesert.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: namekshop.are
+Resetting: hive.are
+Resetting: Cyris.are
+Resetting: Yardansville_Outpost.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: Jaiger.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: south_city.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: nativlon_island.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: Gatsu.are
+Resetting: alternatefuture.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: limbo.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: mount_areukk.are
+Resetting: snake_way.are
+Resetting: supremekaiplanet.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: exelion.are
+Resetting: karn_2.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: training.are
+Resetting: questvnums.are
+Resetting: bloodb.are
+Resetting: planet_plant.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: castlepath.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: ForsakenHQ.are
+Resetting: gods.are
+Resetting: FShip.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: north_42_sector.are
+Resetting: treeofmight.are
+Resetting: EastDistrictRoad.are
+Resetting: grandkaiplanet.are
+Resetting: ims.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: Cyris.are
+Resetting: Yardansville_Outpost.are
+Sun Sep 17 06:36:45 2006 :: Starting compression for descriptor 8
+Sun Sep 17 06:36:45 2006 :: Preloading player data for: Uraki (2K)
+Sun Sep 17 06:36:47 2006 :: Loading player data for: Uraki (2K)
+Sun Sep 17 06:36:47 2006 :: Uraki@71.0.197.215((pipe_breaking)) has connected.
+Sun Sep 17 06:36:51 2006 :: Stopping compression for descriptor 8
+Sun Sep 17 06:36:51 2006 :: Uraki has quit (Room 9001).
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: worldstrongest.are
+Resetting: Gatsu.are
+Resetting: south_city.are
+Resetting: test.are
+Resetting: deadzone.are
+Resetting: namekshop.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: bulldog.are
+Sun Sep 17 06:40:03 2006 :: Preloading player data for: Elias (5K)
+Resetting: afterlife.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: Jaiger.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 06:40:04 2006 :: Starting compression for descriptor 8
+Sun Sep 17 06:40:04 2006 :: Loading player data for: Elias (5K)
+Sun Sep 17 06:40:04 2006 :: Elias@172.146.120.193((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: roshis_island.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: SuperVolcano.are
+Sun Sep 17 06:40:41 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: snake_way.are
+Resetting: friezas_ship.are
+Resetting: questvnums.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: rabbit_gang.are
+Resetting: western_desert.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: karn_2.are
+Resetting: alternatefuture.are
+Resetting: PilafsCastle.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+Resetting: aoh.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: fake_namek.are
+Resetting: castlepath.are
+Resetting: exelion.are
+Resetting: EastDistrict439.are
+Resetting: ShadowDragons.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: satancity.are
+Resetting: Gatsu.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: gods.are
+Resetting: soltari_city.are
+Resetting: worldstrongest.are
+Resetting: training.are
+Resetting: mini_ships.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: north_42_sector.are
+Resetting: megaplex.are
+Resetting: treeofmight.are
+Resetting: ForsakenHQ.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: hive.are
+Resetting: Yardansville_Outpost.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: namek.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: cou.are
+Resetting: soltaridesert.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: FShip.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: namekshop.are
+Resetting: bulldog.are
+Resetting: sewers.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: mount_areukk.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: namek.are
+Resetting: capsule_corp.are
+Resetting: worldstrongest.are
+Resetting: Gatsu.are
+Resetting: questvnums.are
+Resetting: karn_2.are
+Resetting: Jaiger.are
+Resetting: PilafsCastle.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: fake_namek.are
+Resetting: western_desert.are
+Resetting: snake_way.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: exelion.are
+Resetting: supremekaiplanet.are
+Resetting: planet_plant.are
+Resetting: cou.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: castlepath.are
+Resetting: EastDistrict439.are
+Resetting: bloodb.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: kames_lookout.are
+Resetting: deadzone.are
+Resetting: alternatefuture.are
+Resetting: ShadowDragons.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: gods.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: north_42_sector.are
+Resetting: hive.are
+Resetting: training.are
+Resetting: mini_ships.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: treeofmight.are
+Resetting: grandkaiplanet.are
+Resetting: cou.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: satancity.are
+Resetting: Gatsu.are
+Resetting: Cyris.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: namekshop.are
+Resetting: bulldog.are
+Resetting: aoh.are
+Resetting: kames_lookout.are
+Resetting: big_gete.are
+Resetting: fake_namek.are
+Resetting: mount_areukk.are
+Resetting: questvnums.are
+Resetting: PilafsCastle.are
+Resetting: supremekaiplanet.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: snake_way.are
+Resetting: castlevegeta.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: bloodb.are
+Resetting: planet_plant.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: basement.are
+Resetting: exelion.are
+Resetting: karn_2.are
+Resetting: Jaiger.are
+Resetting: ShadowDragons.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: EastDistrict439.are
+Resetting: ims.are
+Resetting: north_42_sector.are
+Resetting: megaplex.are
+Resetting: Gatsu.are
+Resetting: training.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: mini_ships.are
+Resetting: alternatefuture.are
+Resetting: ForsakenHQ.are
+Resetting: rabbit_gang.are
+Resetting: soltari_city.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: treeofmight.are
+Resetting: Yardansville_Outpost.are
+Resetting: grandkaiplanet.are
+Resetting: cou.are
+Resetting: south_city.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: hive.are
+Sun Sep 17 07:14:32 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: deadzone.are
+Resetting: soltaridesert.are
+Sun Sep 17 07:17:04 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: capsule_corp.are
+Resetting: namekshop.are
+Resetting: PilafsCastle.are
+Resetting: bulldog.are
+Resetting: supremekaiplanet.are
+Resetting: Cyris.are
+Resetting: sewers.are
+Resetting: nativlon_island.are
+Resetting: western_desert.are
+Resetting: Gatsu.are
+Resetting: questvnums.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: snake_way.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: bloodb.are
+Resetting: aoh.are
+Resetting: mount_areukk.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: Jaiger.are
+Resetting: ShadowDragons.are
+Resetting: limbo.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: karn_2.are
+Resetting: planet_plant.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: ims.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: basement.are
+Resetting: exelion.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: soltari_city.are
+Resetting: castlepath.are
+Resetting: EastDistrict439.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Resetting: hive.are
+Resetting: treeofmight.are
+Resetting: training.are
+Resetting: mini_ships.are
+Resetting: alternatefuture.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: FShip.are
+Resetting: sewers.are
+Resetting: ForsakenHQ.are
+Resetting: rabbit_gang.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: Gatsu.are
+Resetting: Yardansville_Outpost.are
+Resetting: grandkaiplanet.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: sewers.are
+Resetting: fake_namek.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: hive.are
+Resetting: EastDistrictRoad.are
+Resetting: questvnums.are
+Resetting: bulldog.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: satancity.are
+Resetting: megaplex.are
+Resetting: namekshop.are
+Resetting: soltaridesert.are
+Resetting: worldstrongest.are
+Resetting: bloodb.are
+Resetting: aoh.are
+Read_from_descriptor: Connection reset by peer
+Sun Sep 17 07:31:13 2006 :: Closing link to Elias.
+Sun Sep 17 07:31:13 2006 :: Stopping compression for descriptor 8
+Sun Sep 17 07:31:13 2006 :: Stopping compression for descriptor 8
+Resetting: intro.are
+Resetting: capsule_corp.are
+Resetting: snake_way.are
+Resetting: castlevegeta.are
+Resetting: PilafsCastle.are
+Resetting: supremekaiplanet.are
+Resetting: ShadowDragons.are
+Resetting: gods.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: western_desert.are
+Resetting: deadzone.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: basement.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: karn_2.are
+Resetting: Jaiger.are
+Resetting: ims.are
+Resetting: castlepath.are
+Resetting: Gatsu.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: sewers.are
+Resetting: soltari_city.are
+Resetting: hive.are
+Resetting: mini_ships.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: exelion.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: treeofmight.are
+Resetting: EastDistrict439.are
+Resetting: ForsakenHQ.are
+Resetting: spaceships.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: alternatefuture.are
+Resetting: Yardansville_Outpost.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: training.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: geros_lab.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Resetting: worldstrongest.are
+Resetting: bulldog.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: big_gete.are
+Resetting: fake_namek.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: questvnums.are
+Sun Sep 17 07:43:54 2006 :: Starting compression for descriptor 8
+Sun Sep 17 07:43:54 2006 :: Preloading player data for: Elias (5K)
+Sun Sep 17 07:43:55 2006 :: Elias@172.163.243.46((pipe_breaking)) reconnected.
+Resetting: sewers.are
+Resetting: nativlon_island.are
+Resetting: soltaridesert.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+Sun Sep 17 07:44:42 2006 :: Loading player data for: Aradath (15K)
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: capsule_corp.are
+Resetting: namekshop.are
+Resetting: planet_plant.are
+Resetting: aoh.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: ShadowDragons.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: mount_areukk.are
+Resetting: snake_way.are
+Resetting: friezas_ship.are
+Resetting: PilafsCastle.are
+Resetting: cou.are
+Resetting: sewers.are
+Resetting: western_desert.are
+Resetting: castlepath.are
+Resetting: karn_2.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 07:48:33 2006 :: Preloading player data for: Kalir (3K)
+Sun Sep 17 07:48:37 2006 :: Loading player data for: Kalir (3K)
+Sun Sep 17 07:48:37 2006 :: Kalir@12.217.91.146((in_progress)) has connected.
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: soltari_city.are
+Resetting: hive.are
+Resetting: SuperVolcano.are
+Resetting: exelion.are
+Resetting: Jaiger.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: kames_lookout.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: megaplex.are
+Resetting: deadzone.are
+Resetting: Gatsu.are
+Resetting: mini_ships.are
+Resetting: Yardansville_Outpost.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: afterlife.are
+Resetting: rabbit_gang.are
+Resetting: treeofmight.are
+Resetting: EastDistrict439.are
+Resetting: ForsakenHQ.are
+Resetting: grandkaiplanet.are
+Sun Sep 17 07:51:28 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: cou.are
+Resetting: south_city.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: training.are
+Sun Sep 17 07:52:57 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: soltaridesert.are
+Resetting: bulldog.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: alternatefuture.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+Resetting: planet_plant.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: basement.are
+Resetting: questvnums.are
+Sun Sep 17 07:56:03 2006 :: EOF encountered on read.
+Sun Sep 17 07:56:03 2006 :: Closing link to Manaroth.
+Sun Sep 17 07:56:03 2006 :: Stopping compression for descriptor 7
+Sun Sep 17 07:56:13 2006 :: Starting compression for descriptor 7
+Sun Sep 17 07:56:13 2006 :: Preloading player data for: Manaroth (4K)
+Sun Sep 17 07:56:14 2006 :: Manaroth@58.163.34.205((in_progress)) reconnected.
+auth_read: read: Connection reset by peer
+Sun Sep 17 07:56:16 2006 :: [*****] BUG: Auth_read: Error on read for Manaroth@58.163.34.205.
+Resetting: ims.are
+Resetting: roshis_island.are
+Resetting: Gatsu.are
+Resetting: aoh.are
+Sun Sep 17 07:57:36 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: gods.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: castlepath.are
+Resetting: namekshop.are
+Resetting: karn_2.are
+Resetting: cou.are
+Resetting: FShip.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Read_from_descriptor: Connection reset by peer
+Sun Sep 17 07:58:31 2006 :: Closing link to Kalir.
+Resetting: intro.are
+Resetting: namek.are
+Resetting: western_desert.are
+Resetting: mount_areukk.are
+Resetting: deadzone.are
+Resetting: exelion.are
+Resetting: bunny_forest.are
+Resetting: big_gete.are
+Resetting: mini_ships.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: Jaiger.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: rabbit_gang.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: EastDistrict439.are
+Resetting: ForsakenHQ.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: Gatsu.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: geros_lab.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: satancity.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Resetting: Cyris.are
+Resetting: kames_lookout.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: basement.are
+Resetting: supremekaiplanet.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: fake_namek.are
+Resetting: nativlon_island.are
+Resetting: deadzone.are
+Resetting: worldstrongest.are
+Resetting: training.are
+Resetting: questvnums.are
+Resetting: planet_plant.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: castlevegeta.are
+Resetting: karn_2.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: big_gete.are
+Resetting: friezas_ship.are
+Resetting: gods.are
+Resetting: cou.are
+Resetting: roshis_island.are
+Resetting: test.are
+Resetting: western_desert.are
+Resetting: capsule_corp.are
+Resetting: snake_way.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: alternatefuture.are
+Resetting: ShadowDragons.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: mount_areukk.are
+Resetting: megaplex.are
+Resetting: namekshop.are
+Resetting: Gatsu.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: limbo.are
+Resetting: SuperVolcano.are
+Resetting: PilafsCastle.are
+Sun Sep 17 08:10:47 2006 :: Loading player data for: Malyse (7K)
+Sun Sep 17 08:10:54 2006 :: Loading player data for: Pryest (13K)
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: north_42_sector.are
+Resetting: exelion.are
+Resetting: Jaiger.are
+Resetting: kames_lookout.are
+Resetting: south_city.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: mini_ships.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: soltaridesert.are
+Resetting: worldstrongest.are
+Resetting: Yardansville_Outpost.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: deadzone.are
+Resetting: hive.are
+Resetting: treeofmight.are
+Resetting: EastDistrict439.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: afterlife.are
+Resetting: Cyris.are
+Resetting: grandkaiplanet.are
+Sun Sep 17 08:15:09 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: intro.are
+Resetting: ims.are
+Resetting: namek.are
+Resetting: big_gete.are
+Resetting: castlevegeta.are
+Resetting: training.are
+Resetting: questvnums.are
+Resetting: bulldog.are
+Resetting: supremekaiplanet.are
+Resetting: aoh.are
+Resetting: sewers.are
+Resetting: Gatsu.are
+Resetting: planet_plant.are
+Sun Sep 17 08:18:19 2006 :: EOF encountered on read.
+Sun Sep 17 08:18:19 2006 :: Closing link to Manaroth.
+Sun Sep 17 08:18:19 2006 :: Stopping compression for descriptor 7
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: snake_way.are
+Resetting: ShadowDragons.are
+Resetting: gods.are
+Resetting: cou.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: capsule_corp.are
+Resetting: hive.are
+Resetting: karn_2.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: western_desert.are
+Resetting: castlepath.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: mount_areukk.are
+Resetting: PilafsCastle.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: namekshop.are
+Resetting: SuperVolcano.are
+Resetting: exelion.are
+Resetting: EastDistrictRoad.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: alternatefuture.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: big_gete.are
+Resetting: hive.are
+Resetting: mini_ships.are
+Resetting: Jaiger.are
+Resetting: ForsakenHQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: soltaridesert.are
+Resetting: intro.are
+Resetting: treeofmight.are
+Resetting: Gatsu.are
+Resetting: EastDistrict439.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: questvnums.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+Resetting: intro.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: grandkaiplanet.are
+Resetting: afterlife.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: snake_way.are
+Resetting: Cyris.are
+Resetting: aoh.are
+Sun Sep 17 08:28:43 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: intro.are
+Resetting: cou.are
+Resetting: FShip.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: megaplex.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: training.are
+Resetting: planet_plant.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: bunny_forest.are
+Resetting: friezas_ship.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: nativlon_island.are
+Resetting: mount_areukk.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Resetting: gods.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: castlepath.are
+Resetting: karn_2.are
+Sun Sep 17 08:32:54 2006 :: Starting compression for descriptor 7
+Sun Sep 17 08:32:54 2006 :: Preloading player data for: Silvio (2K)
+Sun Sep 17 08:32:55 2006 :: Loading player data for: Silvio (2K)
+Sun Sep 17 08:32:55 2006 :: Silvio@24.139.11.220((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: western_desert.are
+Resetting: SuperVolcano.are
+Resetting: namekshop.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: exelion.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: Yardansville_Outpost.are
+Resetting: spaceships.are
+Resetting: treeofmight.are
+Resetting: Jaiger.are
+Resetting: intro.are
+Resetting: mini_ships.are
+Resetting: alternatefuture.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: south_city.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: castlevegeta.are
+Resetting: soltaridesert.are
+Resetting: supremekaiplanet.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: snake_way.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: EastDistrict439.are
+Resetting: grandkaiplanet.are
+Resetting: ims.are
+Resetting: questvnums.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: afterlife.are
+Resetting: bunny_forest.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: Cyris.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: kames_lookout.are
+Resetting: roshis_island.are
+Resetting: soltari_city.are
+Resetting: mount_areukk.are
+Resetting: deadzone.are
+Resetting: planet_plant.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: fake_namek.are
+Resetting: friezas_ship.are
+Resetting: Gatsu.are
+Resetting: ShadowDragons.are
+Resetting: gods.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: capsule_corp.are
+Resetting: castlepath.are
+Resetting: training.are
+Resetting: intro.are
+Resetting: hive.are
+Resetting: PilafsCastle.are
+Resetting: cou.are
+Resetting: FShip.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: test.are
+Resetting: exelion.are
+Resetting: karn_2.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: SuperVolcano.are
+Resetting: Yardansville_Outpost.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: namek.are
+Resetting: namekshop.are
+Resetting: worldstrongest.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: castlevegeta.are
+Resetting: treeofmight.are
+Resetting: Jaiger.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: snake_way.are
+Resetting: deadzone.are
+Resetting: hive.are
+Resetting: mini_ships.are
+Resetting: alternatefuture.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Resetting: cou.are
+Resetting: south_city.are
+Resetting: megaplex.are
+Resetting: basement.are
+Resetting: soltaridesert.are
+Resetting: Gatsu.are
+Resetting: EastDistrict439.are
+Resetting: questvnums.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: planet_plant.are
+Resetting: aoh.are
+Resetting: ims.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: castlepath.are
+Resetting: ShadowDragons.are
+Resetting: Cyris.are
+Resetting: sewers.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: PilafsCastle.are
+Sun Sep 17 08:56:19 2006 :: Starting compression for descriptor 11
+Sun Sep 17 08:56:19 2006 :: Preloading player data for: Coal (4K)
+Sun Sep 17 08:56:21 2006 :: Loading player data for: Coal (4K)
+Sun Sep 17 08:56:21 2006 :: Coal@69.72.54.5((in_progress)) has connected.
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: north_42_sector.are
+Resetting: fake_namek.are
+Resetting: western_desert.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: cou.are
+Resetting: geros_lab.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: SuperVolcano.are
+Resetting: training.are
+Resetting: karn_2.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: kames_lookout.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: big_gete.are
+Sun Sep 17 08:59:01 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: sewers.are
+Resetting: exelion.are
+Resetting: ForsakenHQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Resetting: treeofmight.are
+Resetting: Gatsu.are
+Resetting: Jaiger.are
+Resetting: FShip.are
+Resetting: bunny_forest.are
+Resetting: namekshop.are
+Resetting: hive.are
+Resetting: mini_ships.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: grandkaiplanet.are
+Resetting: sewers.are
+Resetting: snake_way.are
+Resetting: questvnums.are
+Resetting: bulldog.are
+Sun Sep 17 09:04:46 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: limbo.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: worldstrongest.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: afterlife.are
+Resetting: kames_lookout.are
+Resetting: soltari_city.are
+Resetting: soltaridesert.are
+Resetting: EastDistrict439.are
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: alternatefuture.are
+Resetting: planet_plant.are
+Resetting: Cyris.are
+Resetting: aoh.are
+Resetting: gods.are
+Resetting: cou.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: fake_namek.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: ShadowDragons.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: friezas_ship.are
+Resetting: Gatsu.are
+Resetting: karn_2.are
+Resetting: namek.are
+Resetting: PilafsCastle.are
+Sun Sep 17 09:11:53 2006 :: Preloading player data for: Akuma (3K)
+Sun Sep 17 09:11:54 2006 :: Loading player data for: Akuma (3K)
+Sun Sep 17 09:11:54 2006 :: Akuma@71.55.15.147((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: test.are
+Resetting: megaplex.are
+Resetting: deadzone.are
+Resetting: SuperVolcano.are
+Resetting: exelion.are
+Resetting: EastDistrictRoad.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: training.are
+Resetting: ForsakenHQ.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: mini_ships.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: questvnums.are
+Resetting: Jaiger.are
+Resetting: bulldog.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: castlevegeta.are
+Resetting: namekshop.are
+Resetting: bloodb.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: snake_way.are
+Resetting: grandkaiplanet.are
+Resetting: roshis_island.are
+Resetting: Gatsu.are
+Resetting: EastDistrict439.are
+Resetting: planet_plant.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: afterlife.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: north_42_sector.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: deadzone.are
+Resetting: supremekaiplanet.are
+Resetting: Cyris.are
+Sun Sep 17 09:19:56 2006 :: Starting compression for descriptor 14
+Sun Sep 17 09:19:56 2006 :: Preloading player data for: Elias (5K)
+Sun Sep 17 09:19:58 2006 :: Closing link to Elias.
+Sun Sep 17 09:19:58 2006 :: Stopping compression for descriptor 8
+Sun Sep 17 09:19:58 2006 :: Elias@172.145.60.44 reconnected, kicking off old link.
+Sun Sep 17 09:20:18 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:20:21 2006 :: Closing link to Saber.
+Sun Sep 17 09:20:32 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:20:35 2006 :: Closing link to Saber.
+Sun Sep 17 09:20:43 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:20:48 2006 :: Closing link to Saber.
+Resetting: FShip.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: alternatefuture.are
+Sun Sep 17 09:20:55 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:21:04 2006 :: Closing link to Saber.
+Sun Sep 17 09:21:10 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:21:14 2006 :: Closing link to Saber.
+Sun Sep 17 09:21:19 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:21:23 2006 :: Closing link to Saber.
+Sun Sep 17 09:21:28 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:21:37 2006 :: Closing link to Saber.
+Sun Sep 17 09:21:46 2006 :: Preloading player data for: Saber (2K)
+Resetting: gods.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: mount_areukk.are
+Resetting: aoh.are
+Sun Sep 17 09:21:56 2006 :: Closing link to Saber.
+Sun Sep 17 09:22:01 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:22:10 2006 :: Closing link to Saber.
+Sun Sep 17 09:22:25 2006 :: Preloading player data for: Saber (2K)
+Sun Sep 17 09:22:39 2006 :: Closing link to Saber.
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: capsule_corp.are
+Resetting: ShadowDragons.are
+Sun Sep 17 09:23:25 2006 :: Zora@4.252.79.22 new Bio-Android Bio-Android.
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: nativlon_island.are
+Resetting: western_desert.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: karn_2.are
+Resetting: PilafsCastle.are
+Sun Sep 17 09:24:33 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120203
+Sun Sep 17 09:24:33 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120204
+Sun Sep 17 09:24:33 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120205
+Sun Sep 17 09:24:33 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120206
+Sun Sep 17 09:24:33 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120207
+Sun Sep 17 09:24:35 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120203
+Sun Sep 17 09:24:35 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120204
+Sun Sep 17 09:24:35 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120205
+Sun Sep 17 09:24:35 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120206
+Sun Sep 17 09:24:35 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120207
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: worldstrongest.are
+Resetting: ForsakenHQ.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: test.are
+Resetting: exelion.are
+Resetting: mini_ships.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: training.are
+Resetting: questvnums.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: namekshop.are
+Resetting: big_gete.are
+Resetting: castlevegeta.are
+Resetting: bulldog.are
+Sun Sep 17 09:30:57 2006 :: Akuma has quit (Room 3060).
+Resetting: ims.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: Jaiger.are
+Resetting: planet_plant.are
+Sun Sep 17 09:31:22 2006 :: Kanji@71.55.15.147 new Bio-Android Bio-Android.
+Sun Sep 17 09:31:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120203
+Sun Sep 17 09:31:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120204
+Sun Sep 17 09:31:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120205
+Sun Sep 17 09:31:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120206
+Sun Sep 17 09:31:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120207
+Resetting: intro.are
+Resetting: cou.are
+Resetting: afterlife.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: megaplex.are
+Resetting: EastDistrict439.are
+Resetting: bloodb.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: kames_lookout.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: north_42_sector.are
+Resetting: soltaridesert.are
+Resetting: Cyris.are
+Read_from_descriptor: Connection reset by peer
+Sun Sep 17 09:35:16 2006 :: Closing link to Zora.
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: mount_areukk.are
+Resetting: castlepath.are
+Resetting: worldstrongest.are
+Resetting: alternatefuture.are
+Resetting: aoh.are
+Sun Sep 17 09:36:00 2006 :: Kanji has quit (Room 236).
+Sun Sep 17 09:36:04 2006 :: Preloading player data for: Akuma (4K)
+Sun Sep 17 09:36:05 2006 :: Loading player data for: Akuma (4K)
+Sun Sep 17 09:36:05 2006 :: Akuma@71.55.15.147((pipe_breaking)) has connected.
+Sun Sep 17 09:36:19 2006 :: Preloading player data for: Zora (2K)
+Sun Sep 17 09:36:23 2006 :: Zora@4.252.79.22((in_progress)) reconnected.
+Resetting: gods.are
+Resetting: south_city.are
+Resetting: satancity.are
+Resetting: capsule_corp.are
+Resetting: karn_2.are
+Resetting: ShadowDragons.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: Gatsu.are
+Resetting: ForsakenHQ.are
+Resetting: spaceships.are
+Resetting: FShip.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: big_gete.are
+Resetting: hive.are
+Resetting: friezas_ship.are
+Resetting: mini_ships.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: sewers.are
+Resetting: western_desert.are
+Resetting: treeofmight.are
+Resetting: SuperVolcano.are
+Resetting: PilafsCastle.are
+Sun Sep 17 09:40:46 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: deadzone.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: exelion.are
+Resetting: training.are
+Resetting: questvnums.are
+Resetting: Yardansville_Outpost.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: castlevegeta.are
+Resetting: namekshop.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: Jaiger.are
+Resetting: bloodb.are
+Resetting: planet_plant.are
+Resetting: grandkaiplanet.are
+Resetting: snake_way.are
+Resetting: worldstrongest.are
+Resetting: EastDistrict439.are
+Resetting: bulldog.are
+Sun Sep 17 09:46:32 2006 :: Stopping compression for descriptor 11
+Sun Sep 17 09:46:32 2006 :: Coal has quit (Room 3056).
+Resetting: intro.are
+Resetting: cou.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: soltari_city.are
+Resetting: supremekaiplanet.are
+Resetting: Cyris.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: afterlife.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: fake_namek.are
+Resetting: mount_areukk.are
+Resetting: castlepath.are
+Resetting: Gatsu.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: capsule_corp.are
+Resetting: karn_2.are
+Resetting: ShadowDragons.are
+Resetting: aoh.are
+Resetting: south_city.are
+Resetting: deadzone.are
+Resetting: soltaridesert.are
+Resetting: ForsakenHQ.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: hive.are
+Sun Sep 17 09:50:30 2006 :: Zora has quit (Room 262).
+Resetting: test.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: western_desert.are
+Resetting: SuperVolcano.are
+Resetting: mini_ships.are
+Resetting: alternatefuture.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: sewers.are
+Resetting: treeofmight.are
+Resetting: PilafsCastle.are
+Resetting: namek.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: Yardansville_Outpost.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: rabbit_gang.are
+Sun Sep 17 09:55:01 2006 :: Preloading player data for: Zyrak (5K)
+Sun Sep 17 09:55:03 2006 :: Loading player data for: Zyrak (5K)
+Sun Sep 17 09:55:03 2006 :: Zyrak@75.21.111.212((pipe_breaking)) has connected.
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: megaplex.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: big_gete.are
+Resetting: castlevegeta.are
+Resetting: exelion.are
+Resetting: questvnums.are
+Resetting: bloodb.are
+Resetting: namekshop.are
+Resetting: training.are
+Resetting: EastDistrict439.are
+Resetting: Jaiger.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: snake_way.are
+Resetting: deadzone.are
+Resetting: bulldog.are
+Resetting: supremekaiplanet.are
+Resetting: planet_plant.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: afterlife.are
+Resetting: north_42_sector.are
+Resetting: soltari_city.are
+Resetting: mount_areukk.are
+Resetting: intro.are
+Resetting: capsule_corp.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: limbo.are
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: worldstrongest.are
+Resetting: mini_ships.are
+Resetting: karn_2.are
+Resetting: ShadowDragons.are
+Resetting: ForsakenHQ.are
+Resetting: aoh.are
+Read_from_descriptor: Connection reset by peer
+Sun Sep 17 10:02:57 2006 :: Closing link to Akuma.
+Resetting: cou.are
+Resetting: namek.are
+Resetting: western_desert.are
+Resetting: treeofmight.are
+Resetting: soltaridesert.are
+Resetting: SuperVolcano.are
+Resetting: Gatsu.are
+Sun Sep 17 10:04:01 2006 :: Preloading player data for: Akuma (4K)
+Sun Sep 17 10:04:03 2006 :: Akuma@71.55.15.147((pipe_breaking)) reconnected.
+Resetting: gods.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: satancity.are
+Resetting: friezas_ship.are
+Resetting: spaceships.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: hive.are
+Resetting: PilafsCastle.are
+Resetting: Yardansville_Outpost.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: alternatefuture.are
+Resetting: bloodb.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: castlevegeta.are
+Resetting: namekshop.are
+Resetting: EastDistrictRoad.are
+Resetting: questvnums.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: training.are
+Resetting: Jaiger.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: fake_namek.are
+Resetting: worldstrongest.are
+Resetting: Gatsu.are
+Resetting: exelion.are
+Resetting: bulldog.are
+Resetting: supremekaiplanet.are
+Resetting: planet_plant.are
+Resetting: roshis_island.are
+Resetting: mount_areukk.are
+Resetting: EastDistrict439.are
+Resetting: Cyris.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 10:12:53 2006 :: Preloading player data for: Tai (5K)
+Sun Sep 17 10:12:53 2006 :: Loading player data for: Tai (5K)
+Sun Sep 17 10:12:53 2006 :: Tai@68.201.124.136((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: snake_way.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: FShip.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: capsule_corp.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: treeofmight.are
+Resetting: mini_ships.are
+Resetting: ShadowDragons.are
+Resetting: aoh.are
+Sun Sep 17 10:15:47 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: ForsakenHQ.are
+Sun Sep 17 10:17:34 2006 :: Starting compression for descriptor 13
+Sun Sep 17 10:17:34 2006 :: Preloading player data for: Coal (4K)
+Sun Sep 17 10:17:38 2006 :: Closing link to Coal.
+Sun Sep 17 10:17:38 2006 :: Stopping compression for descriptor 13
+Sun Sep 17 10:17:44 2006 :: Starting compression for descriptor 13
+Sun Sep 17 10:17:44 2006 :: Preloading player data for: Coal (4K)
+Sun Sep 17 10:17:46 2006 :: Loading player data for: Coal (4K)
+Sun Sep 17 10:17:46 2006 :: Coal@69.72.54.5((in_progress)) has connected.
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: satancity.are
+Resetting: soltaridesert.are
+Resetting: karn_2.are
+Resetting: gods.are
+Resetting: south_city.are
+Resetting: western_desert.are
+Resetting: deadzone.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: megaplex.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: bloodb.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 10:21:03 2006 :: Stopping compression for descriptor 13
+Sun Sep 17 10:21:03 2006 :: Coal has quit (Room 3056).
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: nativlon_island.are
+Resetting: questvnums.are
+Resetting: Yardansville_Outpost.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: ims.are
+Resetting: satancity.are
+Resetting: castlevegeta.are
+Resetting: worldstrongest.are
+Resetting: alternatefuture.are
+Resetting: PilafsCastle.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: soltari_city.are
+Resetting: basement.are
+Resetting: supremekaiplanet.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: big_gete.are
+Resetting: fake_namek.are
+Resetting: mount_areukk.are
+Resetting: namekshop.are
+Resetting: Jaiger.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: training.are
+Resetting: EastDistrict439.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: exelion.are
+Resetting: bulldog.are
+Resetting: planet_plant.are
+Resetting: Cyris.are
+Resetting: cou.are
+Resetting: mini_ships.are
+Sun Sep 17 10:27:50 2006 :: Log ssjgoten goten: mppurge trunks
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: snake_way.are
+Resetting: castlepath.are
+Resetting: Gatsu.are
+Resetting: aoh.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: soltaridesert.are
+Resetting: ShadowDragons.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: treeofmight.are
+Resetting: worldstrongest.are
+Resetting: SuperVolcano.are
+Resetting: ForsakenHQ.are
+Resetting: gods.are
+Resetting: bunny_forest.are
+Resetting: friezas_ship.are
+Resetting: bloodb.are
+Sun Sep 17 10:31:53 2006 :: Log ssjgoten goten: mppurge trunks
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: questvnums.are
+Resetting: karn_2.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 10:32:50 2006 :: Log ssj3gotenks gotenks: mpoload 110026
+Resetting: cou.are
+Resetting: FShip.are
+Resetting: ims.are
+Resetting: south_city.are
+Resetting: big_gete.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: grandkaiplanet.are
+Resetting: fake_namek.are
+Resetting: basement.are
+Resetting: PilafsCastle.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 10:37:35 2006 :: Stopping compression for descriptor 7
+Sun Sep 17 10:37:35 2006 :: Silvio has quit (Room 9001).
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: mount_areukk.are
+Resetting: castlevegeta.are
+Resetting: Jaiger.are
+Sun Sep 17 10:38:04 2006 :: Starting compression for descriptor 7
+Sun Sep 17 10:38:04 2006 :: Preloading player data for: Silvio (2K)
+Sun Sep 17 10:38:04 2006 :: Loading player data for: Silvio (2K)
+Sun Sep 17 10:38:04 2006 :: Silvio@24.139.11.220((pipe_breaking)) has connected.
+Resetting: bunny_forest.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: namekshop.are
+Resetting: Gatsu.are
+Resetting: alternatefuture.are
+Resetting: supremekaiplanet.are
+Resetting: planet_plant.are
+Resetting: Cyris.are
+Sun Sep 17 10:39:46 2006 :: Preloading player data for: Rethe (12K)
+Sun Sep 17 10:39:48 2006 :: Loading player data for: Rethe (12K)
+Sun Sep 17 10:39:48 2006 :: Rethe@172.193.206.199((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: deadzone.are
+Sun Sep 17 10:40:44 2006 :: Stopping compression for descriptor 14
+Sun Sep 17 10:40:44 2006 :: Elias has quit (Room 203602).
+Sun Sep 17 10:40:51 2006 :: Starting compression for descriptor 14
+Sun Sep 17 10:41:16 2006 :: Gaara@172.145.60.44 new Saiyan Saiyan.
+Resetting: afterlife.are
+Resetting: sewers.are
+Resetting: snake_way.are
+Resetting: megaplex.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: EastDistrict439.are
+Sun Sep 17 10:41:31 2006 :: EOF encountered on read.
+Sun Sep 17 10:41:31 2006 :: Closing link to Akuma.
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: exelion.are
+Resetting: training.are
+Resetting: bulldog.are
+Resetting: kames_lookout.are
+Resetting: satancity.are
+Resetting: soltaridesert.are
+Resetting: mini_ships.are
+Resetting: ShadowDragons.are
+Resetting: aoh.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: treeofmight.are
+Sun Sep 17 10:44:00 2006 :: Stopping compression for descriptor 14
+Sun Sep 17 10:44:00 2006 :: Gaara has quit (Room 9007).
+Sun Sep 17 10:44:05 2006 :: Starting compression for descriptor 8
+Sun Sep 17 10:44:05 2006 :: Preloading player data for: Elias (5K)
+Sun Sep 17 10:44:08 2006 :: Loading player data for: Elias (5K)
+Sun Sep 17 10:44:08 2006 :: Elias@172.145.60.44((pipe_breaking)) has connected.
+Resetting: bunny_forest.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: western_desert.are
+Resetting: capsule_corp.are
+Resetting: friezas_ship.are
+Resetting: ForsakenHQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: SuperVolcano.are
+Resetting: bloodb.are
+Resetting: satancity.are
+Resetting: questvnums.are
+Resetting: Yardansville_Outpost.are
+Sun Sep 17 10:46:21 2006 :: Rethe has quit (Room 9007).
+Sun Sep 17 10:46:25 2006 :: Preloading player data for: Hanabi (8K)
+Sun Sep 17 10:46:30 2006 :: Loading player data for: Hanabi (8K)
+Sun Sep 17 10:46:30 2006 :: Hanabi@172.193.206.199((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: fake_namek.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: karn_2.are
+Resetting: PilafsCastle.are
+Resetting: south_city.are
+Resetting: sewers.are
+Resetting: nativlon_island.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: mount_areukk.are
+Resetting: deadzone.are
+Resetting: grandkaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Sun Sep 17 10:50:04 2006 :: Hanabi has quit (Room 9000).
+Sun Sep 17 10:50:10 2006 :: Preloading player data for: Isithen (4K)
+Sun Sep 17 10:50:14 2006 :: Loading player data for: Isithen (4K)
+Sun Sep 17 10:50:14 2006 :: Isithen@172.193.206.199((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: namekshop.are
+Resetting: Jaiger.are
+Resetting: planet_plant.are
+Resetting: Cyris.are
+Sun Sep 17 10:51:14 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: supremekaiplanet.are
+Sun Sep 17 10:51:53 2006 :: Log ssjgoten goten: mppurge trunks
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: snake_way.are
+Resetting: soltaridesert.are
+Resetting: exelion.are
+Resetting: bulldog.are
+Resetting: aoh.are
+Resetting: gods.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: alternatefuture.are
+Read_from_descriptor: Connection reset by peer
+Sun Sep 17 10:53:24 2006 :: Closing link to Zyrak.
+Sun Sep 17 10:53:32 2006 :: Preloading player data for: Zyrak (5K)
+Sun Sep 17 10:53:37 2006 :: Closing link to Zyrak.
+Sun Sep 17 10:53:44 2006 :: Preloading player data for: Zyrak (5K)
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: satancity.are
+Resetting: friezas_ship.are
+Resetting: ShadowDragons.are
+Sun Sep 17 10:53:50 2006 :: Zyrak@204.209.44.14((broken_pipe)) reconnected.
+Sun Sep 17 10:54:14 2006 :: EOF encountered on read.
+Sun Sep 17 10:54:14 2006 :: Closing link to Zyrak.
+Sun Sep 17 10:54:23 2006 :: Preloading player data for: Zyrak (5K)
+Sun Sep 17 10:54:25 2006 :: Zyrak@75.21.111.212((pipe_breaking)) reconnected.
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: rabbit_gang.are
+Resetting: treeofmight.are
+Resetting: worldstrongest.are
+Resetting: Gatsu.are
+Resetting: training.are
+Resetting: bloodb.are
+Resetting: intro.are
+Resetting: ForsakenHQ.are
+Resetting: kames_lookout.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: western_desert.are
+Resetting: deadzone.are
+Resetting: EastDistrictRoad.are
+Resetting: questvnums.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 10:56:40 2006 :: Isithen has quit (Room 203727).
+Resetting: limbo.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: capsule_corp.are
+Resetting: megaplex.are
+Resetting: hive.are
+Resetting: SuperVolcano.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: PilafsCastle.are
+Resetting: Yardansville_Outpost.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 10:58:28 2006 :: Preloading player data for: Rethe (12K)
+Sun Sep 17 10:58:29 2006 :: Loading player data for: Rethe (12K)
+Sun Sep 17 10:58:29 2006 :: Rethe@172.193.206.199((broken_pipe)) has connected.
+Resetting: intro.are
+Resetting: cou.are
+Resetting: karn_2.are
+Resetting: sewers.are
+Resetting: soltari_city.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: south_city.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: Gatsu.are
+Resetting: Cyris.are
+Resetting: grandkaiplanet.are
+Resetting: afterlife.are
+Resetting: rabbit_gang.are
+Resetting: castlepath.are
+Resetting: namekshop.are
+Resetting: aoh.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: worldstrongest.are
+Resetting: EastDistrict439.are
+Resetting: Jaiger.are
+Resetting: supremekaiplanet.are
+Resetting: FShip.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: deadzone.are
+Resetting: exelion.are
+Resetting: mini_ships.are
+Resetting: cou.are
+Resetting: geros_lab.are
+Resetting: training.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: friezas_ship.are
+Resetting: alternatefuture.are
+Resetting: ShadowDragons.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: ims.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: treeofmight.are
+Resetting: questvnums.are
+Resetting: bloodb.are
+Sun Sep 17 11:10:29 2006 :: Loading player data for: Kaena (7K)
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: fake_namek.are
+Resetting: SuperVolcano.are
+Resetting: ForsakenHQ.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 11:10:39 2006 :: Loading player data for: Jesse (8K)
+Sun Sep 17 11:10:48 2006 :: Loading player data for: Alisha (4K)
+Resetting: bunny_forest.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: sewers.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: planet_plant.are
+Sun Sep 17 11:14:00 2006 :: Preloading player data for: Ureska (5K)
+Sun Sep 17 11:14:00 2006 :: Loading player data for: Ureska (5K)
+Sun Sep 17 11:14:00 2006 :: Ureska@12.217.91.146((in_progress)) has connected.
+Sun Sep 17 11:14:09 2006 :: EOF encountered on read.
+Sun Sep 17 11:14:09 2006 :: Closing link to Ureska.
+Resetting: mount_areukk.are
+Resetting: karn_2.are
+Resetting: PilafsCastle.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: worldstrongest.are
+Resetting: aoh.are
+Resetting: south_city.are
+Resetting: namek.are
+Resetting: soltari_city.are
+Resetting: basement.are
+Resetting: deadzone.are
+Resetting: EastDistrict439.are
+Resetting: Jaiger.are
+Resetting: supremekaiplanet.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: castlepath.are
+Resetting: namekshop.are
+Resetting: gods.are
+Resetting: bunny_forest.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: mini_ships.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: rabbit_gang.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: cou.are
+Resetting: Gatsu.are
+Resetting: exelion.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: kames_lookout.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: western_desert.are
+Resetting: megaplex.are
+Resetting: questvnums.are
+Resetting: ShadowDragons.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: treeofmight.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: training.are
+Resetting: bloodb.are
+Resetting: Yardansville_Outpost.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: karn_2.are
+Resetting: alternatefuture.are
+Resetting: planet_plant.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: PilafsCastle.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: Gatsu.are
+Resetting: EastDistrict439.are
+Resetting: grandkaiplanet.are
+Resetting: south_city.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: castlepath.are
+Resetting: namekshop.are
+Resetting: Jaiger.are
+Resetting: supremekaiplanet.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: bulldog.are
+Resetting: gods.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Sun Sep 17 11:32:12 2006 :: EOF encountered on read.
+Sun Sep 17 11:32:12 2006 :: Closing link to Tai.
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: geros_lab.are
+Resetting: snake_way.are
+Resetting: mini_ships.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: intro.are
+Resetting: test.are
+Resetting: north_42_sector.are
+Resetting: deadzone.are
+Resetting: exelion.are
+Resetting: ShadowDragons.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: questvnums.are
+Sun Sep 17 11:36:19 2006 :: Preloading player data for: Onyx (3K)
+Sun Sep 17 11:36:21 2006 :: Loading player data for: Onyx (3K)
+Sun Sep 17 11:36:21 2006 :: Onyx@70.92.251.128((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: SuperVolcano.are
+Resetting: Gatsu.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: FShip.are
+Resetting: sewers.are
+Resetting: western_desert.are
+Resetting: training.are
+Resetting: planet_plant.are
+Sun Sep 17 11:38:45 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: intro.are
+Resetting: ims.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: hive.are
+Resetting: Yardansville_Outpost.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: EastDistrict439.are
+Resetting: karn_2.are
+Resetting: PilafsCastle.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: afterlife.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: namekshop.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: deadzone.are
+Resetting: castlevegeta.are
+Resetting: castlepath.are
+Resetting: soltaridesert.are
+Resetting: alternatefuture.are
+Resetting: Cyris.are
+Resetting: grandkaiplanet.are
+Resetting: gods.are
+Resetting: snake_way.are
+Resetting: megaplex.are
+Resetting: mini_ships.are
+Resetting: Jaiger.are
+Resetting: supremekaiplanet.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: sewers.are
+Resetting: soltari_city.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: bulldog.are
+Sun Sep 17 11:46:06 2006 :: Stopping compression for descriptor 8
+Sun Sep 17 11:46:06 2006 :: Elias has quit (Room 9007).
+Sun Sep 17 11:46:10 2006 :: Starting compression for descriptor 8
+Sun Sep 17 11:46:21 2006 :: Stopping compression for descriptor 7
+Sun Sep 17 11:46:21 2006 :: Silvio has quit (Room 9007).
+Resetting: cou.are
+Resetting: namek.are
+Sun Sep 17 11:47:17 2006 :: Genji@172.145.60.44 new Genie Genie.
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: worldstrongest.are
+Resetting: ShadowDragons.are
+Resetting: kames_lookout.are
+Resetting: friezas_ship.are
+Resetting: exelion.are
+Resetting: EastDistrictRoad.are
+Resetting: planet_plant.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: satancity.are
+Resetting: SuperVolcano.are
+Resetting: training.are
+Resetting: questvnums.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: western_desert.are
+Resetting: karn_2.are
+Read_from_descriptor: Connection reset by peer
+Sun Sep 17 11:51:47 2006 :: Closing link to Onyx.
+Resetting: cou.are
+Resetting: ims.are
+Resetting: sewers.are
+Resetting: mount_areukk.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: PilafsCastle.are
+Resetting: spaceships.are
+Resetting: FShip.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: fake_namek.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: namekshop.are
+Resetting: EastDistrict439.are
+Resetting: aoh.are
+Resetting: sewers.are
+Resetting: castlepath.are
+Resetting: soltaridesert.are
+Resetting: mini_ships.are
+Resetting: Jaiger.are
+Resetting: Cyris.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 11:55:44 2006 :: Rethe has quit (Room 204102).
+Sun Sep 17 11:55:50 2006 :: Preloading player data for: Kaiser (14K)
+Sun Sep 17 11:55:52 2006 :: Loading player data for: Kaiser (14K)
+Sun Sep 17 11:55:52 2006 :: Kaiser@172.193.206.199((pipe_breaking)) has connected.
+Resetting: gods.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: basement.are
+Resetting: worldstrongest.are
+Resetting: alternatefuture.are
+Resetting: bulldog.are
+Sun Sep 17 11:56:53 2006 :: Kaiser has quit (Room 204100).
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: castlevegeta.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: cou.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: north_42_sector.are
+Resetting: snake_way.are
+Resetting: hive.are
+Sun Sep 17 11:57:59 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: sewers.are
+Resetting: soltari_city.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: Gatsu.are
+Resetting: ShadowDragons.are
+Resetting: planet_plant.are
+Resetting: limbo.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: bloodb.are
+Resetting: western_desert.are
+Resetting: deadzone.are
+Resetting: friezas_ship.are
+Resetting: exelion.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: questvnums.are
+Resetting: karn_2.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: cou.are
+Resetting: ims.are
+Resetting: kames_lookout.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: hive.are
+Resetting: SuperVolcano.are
+Resetting: PilafsCastle.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: worldstrongest.are
+Resetting: training.are
+Resetting: Yardansville_Outpost.are
+Resetting: spaceships.are
+Resetting: big_gete.are
+Resetting: namekshop.are
+Resetting: soltaridesert.are
+Resetting: Jaiger.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: fake_namek.are
+Resetting: capsule_corp.are
+Resetting: megaplex.are
+Resetting: Cyris.are
+Sun Sep 17 12:08:54 2006 :: Stopping compression for descriptor 8
+Sun Sep 17 12:08:54 2006 :: Genji has quit (Room 100).
+Resetting: afterlife.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: castlepath.are
+Resetting: Gatsu.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: aoh.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: snake_way.are
+Resetting: basement.are
+Resetting: deadzone.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: alternatefuture.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: FShip.are
+Resetting: geros_lab.are
+Resetting: soltari_city.are
+Resetting: ShadowDragons.are
+Resetting: planet_plant.are
+Resetting: kames_lookout.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: friezas_ship.are
+Resetting: bloodb.are
+Sun Sep 17 12:15:03 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: test.are
+Resetting: treeofmight.are
+Resetting: worldstrongest.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: big_gete.are
+Resetting: questvnums.are
+Resetting: PilafsCastle.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: SuperVolcano.are
+Resetting: exelion.are
+Resetting: karn_2.are
+Resetting: ForsakenHQ.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: Jaiger.are
+Sun Sep 17 12:19:16 2006 :: Starting compression for descriptor 7
+Resetting: spaceships.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: fake_namek.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: training.are
+Sun Sep 17 12:20:02 2006 :: Baldarov@87.94.24.138 new Namek Namek.
+Sun Sep 17 12:20:34 2006 :: Stopping compression for descriptor 7
+Sun Sep 17 12:20:34 2006 :: Baldarov has quit (Room 100).
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: soltaridesert.are
+Resetting: grandkaiplanet.are
+Resetting: aoh.are
+Sun Sep 17 12:21:16 2006 :: Preloading player data for: Sebine (5K)
+Sun Sep 17 12:21:17 2006 :: Loading player data for: Sebine (5K)
+Sun Sep 17 12:21:17 2006 :: Sebine@71.56.28.226((in_progress)) has connected.
+Resetting: gods.are
+Resetting: afterlife.are
+Resetting: deadzone.are
+Resetting: namekshop.are
+Resetting: mini_ships.are
+Sun Sep 17 12:22:51 2006 :: Sebine has quit (Room 262).
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: castlepath.are
+Resetting: Cyris.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: EastDistrict439.are
+Resetting: supremekaiplanet.are
+Resetting: planet_plant.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: ShadowDragons.are
+Resetting: cou.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: alternatefuture.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: soltari_city.are
+Resetting: treeofmight.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: megaplex.are
+Resetting: friezas_ship.are
+Resetting: Gatsu.are
+Resetting: bloodb.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: test.are
+Resetting: karn_2.are
+Sun Sep 17 12:28:27 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Sun Sep 17 12:29:23 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: FShip.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: SuperVolcano.are
+Resetting: Jaiger.are
+Resetting: Yardansville_Outpost.are
+Sun Sep 17 12:29:32 2006 :: Loading player data for: Pyrrhic (3K)
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: western_desert.are
+Resetting: capsule_corp.are
+Resetting: hive.are
+Resetting: questvnums.are
+Resetting: PilafsCastle.are
+Resetting: ForsakenHQ.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Resetting: exelion.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: fake_namek.are
+Resetting: namekshop.are
+Resetting: soltaridesert.are
+Resetting: training.are
+Resetting: spaceships.are
+Resetting: mount_areukk.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: Gatsu.are
+Resetting: Cyris.are
+Resetting: aoh.are
+Resetting: gods.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: ShadowDragons.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: basement.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: planet_plant.are
+Sun Sep 17 12:36:41 2006 :: EOF encountered on read.
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: soltari_city.are
+Resetting: nativlon_island.are
+Resetting: castlevegeta.are
+Resetting: supremekaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: snake_way.are
+Resetting: treeofmight.are
+Resetting: ims.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: friezas_ship.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: bloodb.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: rabbit_gang.are
+Resetting: deadzone.are
+Resetting: SuperVolcano.are
+Resetting: questvnums.are
+Resetting: alternatefuture.are
+Resetting: Jaiger.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: Gatsu.are
+Resetting: karn_2.are
+Resetting: Yardansville_Outpost.are
+Resetting: cou.are
+Resetting: fake_namek.are
+Resetting: western_desert.are
+Resetting: capsule_corp.are
+Resetting: exelion.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: EastDistrictRoad.are
+Resetting: PilafsCastle.are
+Sun Sep 17 12:44:04 2006 :: Preloading player data for: Kratos (2K)
+Sun Sep 17 12:44:04 2006 :: Updating area entry for Kratos
+Sun Sep 17 12:44:05 2006 :: Loading player data for: Kratos (2K)
+Sun Sep 17 12:44:05 2006 :: Updating area entry for Kratos
+Sun Sep 17 12:44:05 2006 :: Kratos@68.229.212.100((in_progress)) has connected.
+Resetting: FShip.are
+Resetting: kames_lookout.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: namekshop.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: soltaridesert.are
+Resetting: Cyris.are
+Resetting: aoh.are
+Resetting: gods.are
+Resetting: spaceships.are
+Resetting: rabbit_gang.are
+Resetting: mount_areukk.are
+Resetting: training.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: intro.are
+Resetting: soltari_city.are
+Resetting: castlevegeta.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: cou.are
+Resetting: south_city.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Resetting: ShadowDragons.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: big_gete.are
+Resetting: snake_way.are
+Resetting: megaplex.are
+Resetting: basement.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: supremekaiplanet.are
+Resetting: planet_plant.are
+Resetting: ims.are
+Resetting: bunny_forest.are
+Resetting: test.are
+Resetting: Gatsu.are
+Sun Sep 17 12:51:08 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: limbo.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: treeofmight.are
+Resetting: SuperVolcano.are
+Resetting: bulldog.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: karn_2.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: fake_namek.are
+Resetting: western_desert.are
+Resetting: hive.are
+Resetting: questvnums.are
+Resetting: bloodb.are
+Resetting: Yardansville_Outpost.are
+Resetting: cou.are
+Resetting: satancity.are
+Resetting: alternatefuture.are
+Resetting: Jaiger.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: namekshop.are
+Resetting: exelion.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: soltaridesert.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: big_gete.are
+Resetting: EastDistrict439.are
+Resetting: PilafsCastle.are
+Resetting: Cyris.are
+Resetting: aoh.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: Gatsu.are
+Resetting: mini_ships.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: nativlon_island.are
+Resetting: mount_areukk.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: ShadowDragons.are
+Resetting: gods.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: castlepath.are
+Resetting: friezas_ship.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: bunny_forest.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: training.are
+Sun Sep 17 13:02:15 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: ims.are
+Resetting: sewers.are
+Resetting: supremekaiplanet.are
+Sun Sep 17 13:02:51 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: snake_way.are
+Resetting: basement.are
+Resetting: bulldog.are
+Resetting: planet_plant.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 13:03:35 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: FShip.are
+Resetting: rabbit_gang.are
+Resetting: SuperVolcano.are
+Resetting: Yardansville_Outpost.are
+Sun Sep 17 13:04:21 2006 :: Starting compression for descriptor 12
+Sun Sep 17 13:04:21 2006 :: Preloading player data for: Elias (5K)
+Sun Sep 17 13:04:25 2006 :: Loading player data for: Elias (5K)
+Sun Sep 17 13:04:25 2006 :: Elias@172.145.60.44((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: hive.are
+Resetting: treeofmight.are
+Resetting: bloodb.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: Gatsu.are
+Resetting: questvnums.are
+Resetting: karn_2.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: big_gete.are
+Resetting: western_desert.are
+Resetting: worldstrongest.are
+Resetting: rabbit_gang.are
+Resetting: namekshop.are
+Resetting: soltaridesert.are
+Resetting: exelion.are
+Resetting: Jaiger.are
+Resetting: PilafsCastle.are
+Resetting: ForsakenHQ.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: capsule_corp.are
+Resetting: kames_lookout.are
+Resetting: alternatefuture.are
+Resetting: ShadowDragons.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: mount_areukk.are
+Resetting: hive.are
+Resetting: EastDistrict439.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: soltari_city.are
+Resetting: megaplex.are
+Resetting: castlevegeta.are
+Resetting: castlepath.are
+Resetting: mini_ships.are
+Resetting: grandkaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: ims.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: Gatsu.are
+Resetting: training.are
+Resetting: gods.are
+Resetting: north_42_sector.are
+Resetting: friezas_ship.are
+Resetting: bulldog.are
+Resetting: supremekaiplanet.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: deadzone.are
+Resetting: worldstrongest.are
+Resetting: Yardansville_Outpost.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 13:15:44 2006 :: Starting compression for descriptor 13
+Sun Sep 17 13:15:44 2006 :: Preloading player data for: Silvio (2K)
+Sun Sep 17 13:15:44 2006 :: Loading player data for: Silvio (2K)
+Sun Sep 17 13:15:44 2006 :: Silvio@24.139.11.220((pipe_breaking)) has connected.
+Resetting: rabbit_gang.are
+Resetting: basement.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: snake_way.are
+Resetting: SuperVolcano.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: bloodb.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: bunny_forest.are
+Resetting: treeofmight.are
+Resetting: karn_2.are
+Resetting: ForsakenHQ.are
+Resetting: rabbit_gang.are
+Resetting: questvnums.are
+Resetting: Jaiger.are
+Sun Sep 17 13:21:36 2006 :: Preloading player data for: Zyrak (5K)
+Sun Sep 17 13:21:38 2006 :: Closing link to Zyrak.
+Sun Sep 17 13:21:38 2006 :: Zyrak@75.21.111.212 reconnected, kicking off old link.
+Sun Sep 17 13:21:42 2006 :: Preloading player data for: Kaji (5K)
+Sun Sep 17 13:21:43 2006 :: Loading player data for: Kaji (5K)
+Sun Sep 17 13:21:43 2006 :: Kaji@24.192.160.196((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: Gatsu.are
+Resetting: exelion.are
+Resetting: aoh.are
+Sun Sep 17 13:22:10 2006 :: Kaji has quit (Room 201614).
+Resetting: namekshop.are
+Resetting: soltaridesert.are
+Resetting: EastDistrict439.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: FShip.are
+Resetting: big_gete.are
+Resetting: soltari_city.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: Cyris.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: mini_ships.are
+Sun Sep 17 13:25:23 2006 :: Zyrak has quit (Room 3059).
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: nativlon_island.are
+Resetting: worldstrongest.are
+Resetting: Dark_Horizon_HQ.are
+Sun Sep 17 13:26:28 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: cou.are
+Resetting: ims.are
+Resetting: north_42_sector.are
+Resetting: castlepath.are
+Resetting: friezas_ship.are
+Resetting: training.are
+Resetting: alternatefuture.are
+Resetting: grandkaiplanet.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: bulldog.are
+Resetting: supremekaiplanet.are
+Resetting: gods.are
+Resetting: spaceships.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: snake_way.are
+Resetting: basement.are
+Resetting: SuperVolcano.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: Yardansville_Outpost.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: Gatsu.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: hive.are
+Resetting: karn_2.are
+Resetting: cou.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: big_gete.are
+Resetting: western_desert.are
+Resetting: megaplex.are
+Resetting: soltaridesert.are
+Resetting: exelion.are
+Resetting: EastDistrict439.are
+Resetting: Jaiger.are
+Resetting: ShadowDragons.are
+Resetting: afterlife.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: treeofmight.are
+Resetting: worldstrongest.are
+Resetting: questvnums.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: capsule_corp.are
+Resetting: namekshop.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: PilafsCastle.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: soltari_city.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: cou.are
+Resetting: friezas_ship.are
+Resetting: mini_ships.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: supremekaiplanet.are
+Resetting: gods.are
+Resetting: geros_lab.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: snake_way.are
+Resetting: castlepath.are
+Resetting: training.are
+Resetting: bulldog.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: big_gete.are
+Resetting: basement.are
+Resetting: deadzone.are
+Resetting: EastDistrictRoad.are
+Resetting: alternatefuture.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: fake_namek.are
+Resetting: SuperVolcano.are
+Resetting: planet_plant.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: sewers.are
+Resetting: western_desert.are
+Resetting: soltaridesert.are
+Resetting: karn_2.are
+Resetting: Jaiger.are
+Sun Sep 17 13:44:19 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: intro.are
+Resetting: cou.are
+Resetting: Gatsu.are
+Resetting: questvnums.are
+Resetting: ShadowDragons.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: namekshop.are
+Resetting: EastDistrict439.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: treeofmight.are
+Resetting: exelion.are
+Resetting: Cyris.are
+Resetting: afterlife.are
+Resetting: namek.are
+Resetting: soltari_city.are
+Resetting: capsule_corp.are
+Resetting: PilafsCastle.are
+Resetting: intro.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Resetting: hive.are
+Resetting: limbo.are
+Resetting: rabbit_gang.are
+Resetting: mount_areukk.are
+Resetting: castlevegeta.are
+Resetting: friezas_ship.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: ims.are
+Resetting: kames_lookout.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: north_42_sector.are
+Resetting: bulldog.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: basement.are
+Resetting: worldstrongest.are
+Resetting: training.are
+Resetting: mini_ships.are
+Sun Sep 17 13:51:47 2006 :: Stopping compression for descriptor 12
+Sun Sep 17 13:51:47 2006 :: Elias has quit (Room 9007).
+Resetting: gods.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: snake_way.are
+Resetting: megaplex.are
+Resetting: Gatsu.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: namek.are
+Resetting: nativlon_island.are
+Resetting: castlepath.are
+Resetting: bloodb.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: Jaiger.are
+Resetting: ForsakenHQ.are
+Resetting: Yardansville_Outpost.are
+Resetting: fake_namek.are
+Resetting: hive.are
+Resetting: SuperVolcano.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: FShip.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: namekshop.are
+Resetting: soltaridesert.are
+Resetting: EastDistrict439.are
+Resetting: karn_2.are
+Resetting: alternatefuture.are
+Resetting: ShadowDragons.are
+Resetting: aoh.are
+Resetting: spaceships.are
+Resetting: kames_lookout.are
+Resetting: western_desert.are
+Resetting: deadzone.are
+Resetting: questvnums.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: rabbit_gang.are
+Resetting: worldstrongest.are
+Resetting: intro.are
+Resetting: satancity.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: treeofmight.are
+Resetting: exelion.are
+Resetting: afterlife.are
+Resetting: soltari_city.are
+Resetting: Gatsu.are
+Resetting: PilafsCastle.are
+Resetting: bulldog.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: ims.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: friezas_ship.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 14:02:36 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: test.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: basement.are
+Resetting: grandkaiplanet.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: namek.are
+Resetting: snake_way.are
+Resetting: mini_ships.are
+Resetting: supremekaiplanet.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: castlepath.are
+Resetting: training.are
+Resetting: Jaiger.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: SuperVolcano.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: namekshop.are
+Resetting: planet_plant.are
+Resetting: Yardansville_Outpost.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: hive.are
+Resetting: EastDistrict439.are
+Resetting: karn_2.are
+Resetting: ShadowDragons.are
+Sun Sep 17 14:09:25 2006 :: Stopping compression for descriptor 13
+Sun Sep 17 14:09:25 2006 :: Silvio has quit (Room 9007).
+Resetting: roshis_island.are
+Resetting: namek.are
+Resetting: soltaridesert.are
+Resetting: worldstrongest.are
+Resetting: Gatsu.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: western_desert.are
+Resetting: questvnums.are
+Resetting: alternatefuture.are
+Resetting: spaceships.are
+Resetting: satancity.are
+Resetting: Cyris.are
+Resetting: intro.are
+Resetting: FShip.are
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: megaplex.are
+Resetting: castlevegeta.are
+Resetting: bulldog.are
+Resetting: afterlife.are
+Resetting: ims.are
+Resetting: treeofmight.are
+Resetting: PilafsCastle.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 14:14:11 2006 :: Preloading player data for: Ureska (5K)
+Sun Sep 17 14:14:11 2006 :: Ureska@12.217.91.146((in_progress)) reconnected.
+Sun Sep 17 14:14:45 2006 :: Preloading player data for: Tai (5K)
+Sun Sep 17 14:14:45 2006 :: Tai@68.201.124.136((pipe_breaking)) reconnected.
+Resetting: intro.are
+Resetting: cou.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: capsule_corp.are
+Resetting: exelion.are
+Resetting: grandkaiplanet.are
+Resetting: geros_lab.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: hive.are
+Resetting: friezas_ship.are
+Resetting: intro.are
+Resetting: mount_areukk.are
+Resetting: snake_way.are
+Resetting: deadzone.are
+Resetting: supremekaiplanet.are
+Resetting: gods.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: north_42_sector.are
+Resetting: basement.are
+Resetting: castlepath.are
+Resetting: mini_ships.are
+Resetting: Jaiger.are
+Resetting: ForsakenHQ.are
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: Gatsu.are
+Resetting: training.are
+Resetting: bunny_forest.are
+Resetting: worldstrongest.are
+Resetting: bloodb.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: fake_namek.are
+Resetting: soltaridesert.are
+Resetting: SuperVolcano.are
+Resetting: EastDistrict439.are
+Resetting: planet_plant.are
+Resetting: Yardansville_Outpost.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: namekshop.are
+Resetting: hive.are
+Resetting: karn_2.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: ShadowDragons.are
+Resetting: Cyris.are
+Resetting: castlevegeta.are
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: western_desert.are
+Resetting: questvnums.are
+Resetting: PilafsCastle.are
+Sun Sep 17 14:25:30 2006 :: Rubilon@66.76.112.227 new Kaio Kaio.
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: treeofmight.are
+Resetting: Gatsu.are
+Resetting: alternatefuture.are
+Sun Sep 17 14:26:18 2006 :: Rubilon has quit (Room 100).
+Resetting: intro.are
+Resetting: cou.are
+Resetting: afterlife.are
+Resetting: ims.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: bulldog.are
+Resetting: grandkaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: FShip.are
+Resetting: big_gete.are
+Resetting: snake_way.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: exelion.are
+Resetting: supremekaiplanet.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: sewers.are
+Resetting: basement.are
+Resetting: friezas_ship.are
+Sun Sep 17 14:29:36 2006 :: Ureska has quit (Room 262).
+Resetting: kames_lookout.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: Jaiger.are
+Sun Sep 17 14:29:43 2006 :: Preloading player data for: Ureska (5K)
+Sun Sep 17 14:29:43 2006 :: Loading player data for: Ureska (5K)
+Sun Sep 17 14:29:43 2006 :: Ureska@12.217.91.146((in_progress)) has connected.
+Resetting: intro.are
+Resetting: training.are
+Resetting: ForsakenHQ.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: castlepath.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: SuperVolcano.are
+Resetting: bloodb.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: megaplex.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: Gatsu.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: namekshop.are
+Resetting: aoh.are
+Resetting: roshis_island.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: worldstrongest.are
+Resetting: questvnums.are
+Resetting: karn_2.are
+Resetting: PilafsCastle.are
+Resetting: Cyris.are
+Sun Sep 17 14:35:17 2006 :: Preloading player data for: Elias (5K)
+Sun Sep 17 14:35:19 2006 :: Starting compression for descriptor 13
+Sun Sep 17 14:35:19 2006 :: Loading player data for: Elias (5K)
+Sun Sep 17 14:35:19 2006 :: Elias@172.133.172.202((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: spaceships.are
+Resetting: big_gete.are
+Resetting: western_desert.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: ShadowDragons.are
+Resetting: afterlife.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: EastDistrictRoad.are
+Resetting: grandkaiplanet.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: bulldog.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: Crimson_Steel_HQ.are
+Sun Sep 17 14:38:47 2006 :: Ryu@208.104.80.138 new Human Human.
+Resetting: limbo.are
+Resetting: soltari_city.are
+Resetting: snake_way.are
+Resetting: basement.are
+Resetting: hive.are
+Resetting: alternatefuture.are
+Resetting: supremekaiplanet.are
+Sun Sep 17 14:38:59 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: gods.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: mount_areukk.are
+Resetting: treeofmight.are
+Resetting: friezas_ship.are
+Resetting: Gatsu.are
+Resetting: exelion.are
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: ForsakenHQ.are
+Sun Sep 17 14:40:15 2006 :: Ryu has quit (Room 100).
+Sun Sep 17 14:40:19 2006 :: Preloading player data for: Ryu (2K)
+Sun Sep 17 14:40:20 2006 :: Loading player data for: Ryu (2K)
+Sun Sep 17 14:40:20 2006 :: Ryu@208.104.80.138((in_progress)) has connected.
+Resetting: bunny_forest.are
+Resetting: castlepath.are
+Resetting: training.are
+Resetting: mini_ships.are
+Resetting: Jaiger.are
+Sun Sep 17 14:41:29 2006 :: Ryu has quit (Room 9001).
+Resetting: intro.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: worldstrongest.are
+Resetting: SuperVolcano.are
+Resetting: bloodb.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: deadzone.are
+Resetting: Yardansville_Outpost.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: nativlon_island.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: EastDistrict439.are
+Resetting: planet_plant.are
+Resetting: FShip.are
+Resetting: roshis_island.are
+Resetting: rabbit_gang.are
+Resetting: questvnums.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: castlevegeta.are
+Resetting: namekshop.are
+Resetting: Cyris.are
+Sun Sep 17 14:47:17 2006 :: Preloading player data for: Kratos (2K)
+Sun Sep 17 14:47:17 2006 :: Updating area entry for Kratos
+Sun Sep 17 14:47:20 2006 :: Closing link to Kratos.
+Sun Sep 17 14:47:20 2006 :: Kratos@68.229.212.100 reconnected, kicking off old link.
+Resetting: spaceships.are
+Resetting: capsule_corp.are
+Resetting: karn_2.are
+Resetting: PilafsCastle.are
+Resetting: ShadowDragons.are
+Sun Sep 17 14:47:37 2006 :: Ureska has quit (Room 262).
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: western_desert.are
+Resetting: Gatsu.are
+Resetting: cou.are
+Resetting: afterlife.are
+Resetting: snake_way.are
+Resetting: basement.are
+Resetting: hive.are
+Sun Sep 17 14:50:18 2006 :: Preloading player data for: Rubilon (2K)
+Sun Sep 17 14:50:19 2006 :: Loading player data for: Rubilon (2K)
+Sun Sep 17 14:50:19 2006 :: Rubilon@66.76.112.227((in_progress)) has connected.
+Sun Sep 17 14:50:38 2006 :: Preloading player data for: Ureska (5K)
+Sun Sep 17 14:50:38 2006 :: Loading player data for: Ureska (5K)
+Sun Sep 17 14:50:38 2006 :: Ureska@12.217.91.146((in_progress)) has connected.
+Sun Sep 17 14:50:58 2006 :: Starting compression for descriptor 18
+Sun Sep 17 14:50:58 2006 :: Preloading player data for: Karn (4K)
+Sun Sep 17 14:50:59 2006 :: Loading player data for: Karn (4K)
+Sun Sep 17 14:50:59 2006 :: Karn@72.64.23.89((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: ims.are
+Resetting: sewers.are
+Resetting: worldstrongest.are
+Resetting: bulldog.are
+Resetting: supremekaiplanet.are
+Resetting: grandkaiplanet.are
+Resetting: gods.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: mount_areukk.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: Crimson_Steel_HQ.are
+Read_from_descriptor: Connection reset by peer
+Sun Sep 17 14:52:25 2006 :: Closing link to Seca.
+Sun Sep 17 14:52:53 2006 :: Rubilon has quit (Room 203607).
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: soltari_city.are
+Resetting: megaplex.are
+Resetting: deadzone.are
+Resetting: castlepath.are
+Resetting: friezas_ship.are
+Resetting: exelion.are
+Resetting: kames_lookout.are
+Resetting: geros_lab.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: treeofmight.are
+Resetting: alternatefuture.are
+Resetting: ForsakenHQ.are
+Sun Sep 17 14:54:26 2006 :: Seca@66.50.61.9 new Genie Genie.
+Resetting: test.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: training.are
+Resetting: Jaiger.are
+Sun Sep 17 14:55:34 2006 :: Ureska has quit (Room 262).
+Sun Sep 17 14:55:39 2006 :: Preloading player data for: Ureska (5K)
+Sun Sep 17 14:55:39 2006 :: Loading player data for: Ureska (5K)
+Sun Sep 17 14:55:39 2006 :: Ureska@12.217.91.146((in_progress)) has connected.
+Resetting: intro.are
+Resetting: cou.are
+Resetting: south_city.are
+Resetting: fake_namek.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: SuperVolcano.are
+Resetting: Gatsu.are
+Resetting: mini_ships.are
+Resetting: Yardansville_Outpost.are
+Sun Sep 17 14:56:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120203
+Sun Sep 17 14:56:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120204
+Sun Sep 17 14:56:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120205
+Sun Sep 17 14:56:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120206
+Sun Sep 17 14:56:32 2006 :: Log Dragon Ball New Age Newbie Helper: mpoload 120207
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: EastDistrict439.are
+Resetting: questvnums.are
+Resetting: bloodb.are
+Sun Sep 17 14:57:56 2006 :: EOF encountered on read.
+Sun Sep 17 14:57:56 2006 :: Closing link to Karn.
+Sun Sep 17 14:57:56 2006 :: Stopping compression for descriptor 18
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: planet_plant.are
+Resetting: aoh.are
+Sun Sep 17 14:58:27 2006 :: Seca has quit (Room 104).
+Sun Sep 17 14:58:34 2006 :: Tai has quit (Room 2).
+Sun Sep 17 14:58:39 2006 :: Preloading player data for: Tai (5K)
+Sun Sep 17 14:58:40 2006 :: Loading player data for: Tai (5K)
+Sun Sep 17 14:58:40 2006 :: Tai@68.201.124.136((pipe_breaking)) has connected.
+Sun Sep 17 14:59:08 2006 :: EOF encountered on read.
+Sun Sep 17 14:59:08 2006 :: Closing link to Tai.
+Resetting: intro.are
+Resetting: namek.are
+Resetting: namekshop.are
+Resetting: PilafsCastle.are
+Resetting: rabbit_gang.are
+Resetting: castlevegeta.are
+Resetting: worldstrongest.are
+Resetting: karn_2.are
+Resetting: ShadowDragons.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: FShip.are
+Resetting: satancity.are
+Resetting: basement.are
+Resetting: Cyris.are
+Sun Sep 17 15:00:42 2006 :: Ureska has quit (Room 262).
+Sun Sep 17 15:00:49 2006 :: Preloading player data for: Ureska (5K)
+Sun Sep 17 15:00:49 2006 :: Loading player data for: Ureska (5K)
+Sun Sep 17 15:00:49 2006 :: Ureska@12.217.91.146((in_progress)) has connected.
+Sun Sep 17 15:00:52 2006 :: Preloading player data for: Kyo (2K)
+Sun Sep 17 15:00:53 2006 :: Loading player data for: Kyo (2K)
+Sun Sep 17 15:00:53 2006 :: Kyo@70.100.185.50((in_progress)) has connected.
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: ims.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: capsule_corp.are
+Resetting: deadzone.are
+Resetting: gods.are
+Resetting: bunny_forest.are
+Resetting: western_desert.are
+Resetting: mount_areukk.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Resetting: supremekaiplanet.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: snake_way.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: bulldog.are
+Resetting: grandkaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: soltari_city.are
+Resetting: castlepath.are
+Resetting: friezas_ship.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: satancity.are
+Resetting: exelion.are
+Resetting: training.are
+Resetting: alternatefuture.are
+Resetting: Yardansville_Outpost.are
+Sun Sep 17 15:06:59 2006 :: Kyo has quit (Room 203651).
+Resetting: intro.are
+Resetting: geros_lab.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: mini_ships.are
+Resetting: Jaiger.are
+Resetting: ForsakenHQ.are
+Sun Sep 17 15:08:33 2006 :: Gaia@67.19.238.52 new Kaio Kaio.
+Resetting: cou.are
+Resetting: bunny_forest.are
+Resetting: fake_namek.are
+Resetting: treeofmight.are
+Resetting: soltaridesert.are
+Resetting: EastDistrict439.are
+Resetting: bloodb.are
+Sun Sep 17 15:09:28 2006 :: Gaia has quit (Room 9002).
+Sun Sep 17 15:09:50 2006 :: Starting compression for descriptor 12
+Sun Sep 17 15:09:50 2006 :: Preloading player data for: Coal (4K)
+Sun Sep 17 15:09:53 2006 :: Loading player data for: Coal (4K)
+Sun Sep 17 15:09:53 2006 :: Coal@69.72.55.198((in_progress)) has connected.
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: roshis_island.are
+Resetting: namek.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: nativlon_island.are
+Resetting: namekshop.are
+Resetting: hive.are
+Resetting: worldstrongest.are
+Resetting: SuperVolcano.are
+Resetting: Gatsu.are
+Resetting: questvnums.are
+Resetting: PilafsCastle.are
+Resetting: south_city.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: planet_plant.are
+Resetting: Cyris.are
+Resetting: aoh.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: karn_2.are
+Sun Sep 17 15:13:06 2006 :: Preloading player data for: Ureska (5K)
+Sun Sep 17 15:13:06 2006 :: Closing link to Ureska.
+Sun Sep 17 15:13:06 2006 :: Ureska@12.217.91.146 reconnected, kicking off old link.
+Resetting: gods.are
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: bunny_forest.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: ShadowDragons.are
+Resetting: cou.are
+Resetting: spaceships.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: capsule_corp.are
+Resetting: mount_areukk.are
+Resetting: megaplex.are
+Sun Sep 17 15:15:06 2006 :: Ureska has quit (Room 262).
+Resetting: intro.are
+Resetting: western_desert.are
+Resetting: supremekaiplanet.are
+Resetting: soltari_city.are
+Resetting: snake_way.are
+Resetting: castlepath.are
+Resetting: hive.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: satancity.are
+Resetting: worldstrongest.are
+Resetting: grandkaiplanet.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: big_gete.are
+Resetting: friezas_ship.are
+Resetting: Gatsu.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: namek.are
+Resetting: training.are
+Resetting: mini_ships.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: FShip.are
+Resetting: roshis_island.are
+Resetting: fake_namek.are
+Resetting: deadzone.are
+Resetting: exelion.are
+Resetting: Yardansville_Outpost.are
+Sun Sep 17 15:19:21 2006 :: Preloading player data for: Gaia (2K)
+Sun Sep 17 15:19:23 2006 :: Loading player data for: Gaia (2K)
+Sun Sep 17 15:19:23 2006 :: Gaia@67.19.238.52((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: cou.are
+Resetting: rabbit_gang.are
+Resetting: test.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: namekshop.are
+Resetting: alternatefuture.are
+Resetting: Jaiger.are
+Sun Sep 17 15:19:47 2006 :: EOF encountered on read.
+Sun Sep 17 15:19:47 2006 :: Closing link to Gaia.
+Resetting: south_city.are
+Resetting: soltaridesert.are
+Resetting: EastDistrict439.are
+Resetting: Cyris.are
+Sun Sep 17 15:20:30 2006 :: Starting compression for descriptor 11
+Sun Sep 17 15:20:30 2006 :: Preloading player data for: Baldarov (2K)
+Sun Sep 17 15:20:35 2006 :: Closing link to Baldarov.
+Sun Sep 17 15:20:35 2006 :: Stopping compression for descriptor 11
+Sun Sep 17 15:20:39 2006 :: Starting compression for descriptor 11
+Sun Sep 17 15:20:39 2006 :: Preloading player data for: Baldarov (2K)
+Sun Sep 17 15:20:45 2006 :: Loading player data for: Baldarov (2K)
+Sun Sep 17 15:20:45 2006 :: Baldarov@87.94.24.138((pipe_breaking)) has connected.
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: castlevegeta.are
+Resetting: hive.are
+Resetting: treeofmight.are
+Resetting: SuperVolcano.are
+Resetting: questvnums.are
+Resetting: PilafsCastle.are
+Resetting: afterlife.are
+Resetting: kames_lookout.are
+Resetting: namek.are
+Resetting: basement.are
+Resetting: aoh.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: sewers.are
+Resetting: satancity.are
+Resetting: worldstrongest.are
+Resetting: Gatsu.are
+Resetting: planet_plant.are
+Resetting: spaceships.are
+Resetting: big_gete.are
+Resetting: capsule_corp.are
+Resetting: karn_2.are
+Resetting: supremekaiplanet.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: soltari_city.are
+Resetting: snake_way.are
+Resetting: ShadowDragons.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: cou.are
+Resetting: ims.are
+Resetting: sewers.are
+Resetting: north_42_sector.are
+Resetting: western_desert.are
+Resetting: mount_areukk.are
+Resetting: castlepath.are
+Resetting: EastDistrictRoad.are
+Resetting: grandkaiplanet.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: intro.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: deadzone.are
+Sun Sep 17 15:26:47 2006 :: Log invis fused wiring dropper: mpoload 100731
+Resetting: namek.are
+Resetting: hive.are
+Sun Sep 17 15:28:43 2006 :: Starting compression for descriptor 15
+Sun Sep 17 15:28:43 2006 :: Preloading player data for: Kokou (2K)
+Sun Sep 17 15:28:45 2006 :: Loading player data for: Kokou (2K)
+Sun Sep 17 15:28:45 2006 :: Kokou@70.177.22.95((in_progress)) has connected.
+Resetting: geros_lab.are
+Resetting: training.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: nativlon_island.are
+Resetting: friezas_ship.are
+Resetting: bulldog.are
+Resetting: bloodb.are
+Sun Sep 17 15:29:32 2006 :: Loading player data for: Karn (4K)
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: exelion.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: ForsakenHQ.are
+Resetting: Yardansville_Outpost.are
+Resetting: roshis_island.are
+Resetting: namekshop.are
+Resetting: Gatsu.are
+Resetting: alternatefuture.are
+Resetting: Cyris.are
+Resetting: limbo.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: afterlife.are
+Resetting: south_city.are
+Resetting: bunny_forest.are
+Resetting: test.are
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: worldstrongest.are
+Resetting: Jaiger.are
+Resetting: aoh.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: questvnums.are
+Resetting: capsule_corp.are
+Resetting: megaplex.are
+Resetting: basement.are
+Resetting: castlevegeta.are
+Resetting: treeofmight.are
+Resetting: SuperVolcano.are
+Resetting: karn_2.are
+Resetting: PilafsCastle.are
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: deadzone.are
+Resetting: supremekaiplanet.are
+Resetting: ShadowDragons.are
+Resetting: planet_plant.are
+Sun Sep 17 15:35:41 2006 :: Log Kratos: loadup
+Sun Sep 17 15:35:43 2006 :: Log Kratos: loadup renzoku
+Sun Sep 17 15:35:43 2006 :: Loading player data for: Renzoku (3K)
+Sun Sep 17 15:35:43 2006 :: Renzoku has quit (Room 200803).
+Resetting: gods.are
+Resetting: ims.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: spaceships.are
+Resetting: FShip.are
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: north_42_sector.are
+Resetting: mount_areukk.are
+Resetting: castlepath.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: kames_lookout.are
+Resetting: sewers.are
+Resetting: western_desert.are
+Resetting: snake_way.are
+Resetting: grandkaiplanet.are
+Sun Sep 17 15:38:37 2006 :: Log Saiyan Royal Guard: mpoload 201532
+Resetting: soltari_city.are
+Resetting: hive.are
+Resetting: Gatsu.are
+Sun Sep 17 15:39:13 2006 :: Log Kratos: makewizlist
+Resetting: geros_lab.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: worldstrongest.are
+Resetting: friezas_ship.are
+Resetting: bulldog.are
+Resetting: intro.are
+Resetting: big_gete.are
+Resetting: fake_namek.are
+Resetting: training.are
+Resetting: Yardansville_Outpost.are
+Sun Sep 17 15:41:28 2006 :: [*****] BUG: room_is_dark: NULL pRoomIndex
+Resetting: namek.are
+Resetting: sewers.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: Cyris.are
+Sun Sep 17 15:42:32 2006 :: Stopping compression for descriptor 15
+Sun Sep 17 15:42:32 2006 :: Kokou has quit (Room 104).
+Resetting: intro.are
+Resetting: afterlife.are
+Resetting: roshis_island.are
+Resetting: bunny_forest.are
+Resetting: satancity.are
+Resetting: Jaiger.are
+Resetting: aoh.are
+Resetting: rabbit_gang.are
+Resetting: deadzone.are
+Resetting: exelion.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: intro.are
+Resetting: cou.are
+Resetting: test.are
+Resetting: namekshop.are
+Resetting: karn_2.are
+Resetting: alternatefuture.are
+Resetting: sewers.are
+Resetting: hive.are
+Resetting: soltaridesert.are
+Resetting: SuperVolcano.are
+Resetting: Gatsu.are
+Resetting: questvnums.are
+Resetting: supremekaiplanet.are
+Resetting: ShadowDragons.are
+Resetting: planet_plant.are
+Resetting: intro.are
+Resetting: kames_lookout.are
+Resetting: south_city.are
+Resetting: rabbit_gang.are
+Resetting: satancity.are
+Resetting: capsule_corp.are
+Resetting: castlevegeta.are
+Resetting: treeofmight.are
+Sun Sep 17 15:47:44 2006 :: Loading player data for: Ashriel (8K)
+Resetting: bunny_forest.are
+Resetting: namek.are
+Resetting: basement.are
+Resetting: PilafsCastle.are
+Resetting: gods.are
+Resetting: intro.are
+Resetting: ims.are
+Resetting: mount_areukk.are
+Resetting: worldstrongest.are
+Resetting: Dark_Horizon_HQ.are
+Resetting: spaceships.are
+Resetting: sewers.are
+Resetting: big_gete.are
+Resetting: satancity.are
+Resetting: soltari_city.are
+Resetting: castlepath.are
+Resetting: Crimson_Steel_HQ.are
+Resetting: intro.are
+Resetting: rabbit_gang.are
+Resetting: north_42_sector.are
+Resetting: western_desert.are
+Resetting: snake_way.are
+Resetting: bulldog.are
+Resetting: grandkaiplanet.are
+Sun Sep 17 15:51:36 2006 :: Log Kratos: oinvoke sentinet
+Sun Sep 17 15:51:40 2006 :: Log Kratos: oinvoke sentient
+Sun Sep 17 15:51:48 2006 :: Log Kratos: godset
+Resetting: cou.are
+Resetting: deadzone.are
+Resetting: hive.are
+Sun Sep 17 15:51:51 2006 :: Log Kratos: godset kratos zeni 0
+Resetting: intro.are
+Resetting: sewers.are
+Resetting: friezas_ship.are
+Resetting: Yardansville_Outpost.are
+Resetting: afterlife.are
+Resetting: FShip.are
+Resetting: kames_lookout.are
+Resetting: geros_lab.are
+Resetting: bunny_forest.are
+Resetting: rabbit_gang.are
+Resetting: namek.are
+Resetting: satancity.are
+Resetting: fake_namek.are
+Resetting: Gatsu.are
+Sun Sep 17 15:54:35 2006 :: Starting compression for descriptor 8
+Sun Sep 17 15:54:35 2006 :: Preloading player data for: Randy (2K)
+Sun Sep 17 15:54:39 2006 :: Loading player data for: Randy (2K)
+Sun Sep 17 15:54:39 2006 :: Randy@151.204.154.41((in_progress)) has connected.
+Resetting: intro.are
+Resetting: roshis_island.are
+Resetting: mini_ships.are
+Resetting: EastDistrict439.are
+Resetting: Jaiger.are
+Resetting: bloodb.are
+Resetting: ForsakenHQ.are
+Resetting: Cyris.are
+Resetting: aoh.are

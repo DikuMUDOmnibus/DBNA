@@ -1,0 +1,7 @@
+#!/bin/bash
+
+TEST=`date +20%y%h%d`
+
+tar -czf $TEST.tgz archived
+
+rm archived/*

@@ -1,0 +1,55 @@
+#SHIP
+Name         Elsa~
+Filename     elsa.ship~
+Description  ~
+Owner        Jaiger~
+Pilot        ~
+Copilot      ~
+Class        0
+Tractorbeam  0
+Shipyard     2124
+Hanger       0
+Turret1      0
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       10
+Missiles     8
+Maxmissiles  8
+Rockets     2
+Maxrockets  2
+Torpedos     4
+Maxtorpedos  4
+Lastdoc      2124
+Firstroom    120202
+Lastroom     120202
+Shield       0
+Maxshield    250
+Hull         200
+Maxhull      200
+Maxenergy    8000
+Hyperspeed   200
+Comm         0
+Chaff        5
+Maxchaff     5
+Sensor       0
+Astro_array  0
+Realspeed    100
+Type         0
+Cockpit      120202
+Coseat       120202
+Pilotseat    120202
+Gunseat      120202
+Navseat      120202
+Engineroom   0
+Entrance     120202
+Shipstate    0
+Missilestate 0
+Energy       8000
+Manuever     20
+Cost         25000000
+Home         corperate~
+End
+
+#END

@@ -1,0 +1,10 @@
+#PLANET
+Name         Planet Plant~
+Filename     planetplant.planet~
+BaseValue    0
+Flags        1
+PopSupport   0
+Area         planet_plant.are~
+End
+
+#END
